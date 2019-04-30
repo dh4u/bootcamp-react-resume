@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-  render() {
+  
+   render() {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
+      var occupation = this.props.data.occupation;
+      var description = {__html: this.props.data.description };
+      var city = this.props.data.address.city;
+      var state = this.props.data.address.state;
+      var networks = this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+      });
     }
 
     return (
@@ -26,7 +28,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
@@ -35,7 +37,9 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3 style={{whiteSpace: "pre-wrap", color: "#fff"}}>I'm a <span style={{fontWeight: "bold"}}>{occupation}</span> based in {city}, {state}.
+            <div dangerouslySetInnerHTML={description} />
+            </h3>
             <hr />
             <ul className="social">
                {networks}

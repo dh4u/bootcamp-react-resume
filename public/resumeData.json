@@ -1,151 +1,151 @@
 {
   "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Scott Harvey",
+    "occupation":"Software Engineer",
+    "description":"I want to apply my 19 years of experience using older technologies such as Adobe ColdFusion, MS SQL Server, and Oracle to a modern paradigm as a <span style='font-weight: bold'>Full Stack Developer</span> working with the MERN (MongoDB, Express.js, React.js, Node.js) stack.\n\n I am currently enrolled in the Full Stack Developer bootcamp at <a href='https://www.hyperiondev.com' target='_blank'><span style='font-weight: bold'>Hyperion Dev</span></a> and will be completing the bootcamp in June of 2019.",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"I'm dry-humored and the most socialable introvert you will meet - for example - my partner and I have been to over 25 weddings together. I enjoy traveling and still find it amazing that I have been fortunate enough to travel to about 30 countries on 6 continents - most recently Nepal and Indonesia.<br /><br />I enjoy developing with ColdFusion because it is relatively easy and feature rich. It is a shame that Adobe hasn't done more for ColdFusion. Perhaps they should open source their version of CFML in order to get more developers involved and boost the profile of ColdFusion. Then again, ColdFusion is essentially a Java framework so perhaps touting that could help ColdFusion could raise its profile.<br/ ><br/ >Currently, I am attending a bootcamp where I am learning the MERN stack. It will be nice to have another tool in my toolbox and the potential opportunities that come with it. I think an ideal opportunity would be one where I get to use my knowledge of ColdFusion and could work on porting the application to the MERN stack or (a similar stack).<br /><br />Professionally, I value a sense of ownership most of all. The position that I recall most fondly was at CLR where I built an intranet for them from the ground up. I was responsible for all aspects of the project - managing web hosting including database and web server setup, database architecture / design, and software development. As I automated CLR's processes I felt great pride to be able to develop software that was fostering communication between employees and making work easier for them.<br /><br />I enjoy a challenge and I believe that if you aren't in a little over your head you will not grow. I'm looking for the next challenge.",
+    "contactmessage":"If you like what you see - please get in touch! I'd love to hear about any potential opportunities for freelance work, partnership, or employment.",
+    "email": "scott.harvey@outlook.com",
+    "phone": "202-744-5379",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"1838 6th St NW Unit 4",
+      "city":"Washington",
+      "state":"DC",
+      "zip": "20001"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://www.scottharvey.dev",
+    "resumedownload":"http://scottharvey.dev",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"http://github.com/dh4u",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Here are some of the skills I've picked up along the way:",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Hyperion Dev",
+        "degree":"Full Stack Web Developer",
+        "graduated":"June 2019",
+        "description":"Comprehensive full stack web development course. Learned to build  dynamic, data-driven web applications in the MERN stack. Got a refresher on HTML, CSS, and JavaScript. Learned Bootstrap 4, newer JavaScript (ES6), Node.js, MongoDB, Express, and React."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
+        "school":"Adobe Inc",
+        "degree":"Certified Expert in ColdFusion",
+        "graduated":"July 2010",
+        "description":""
+      },
+      {
+        "school":"Corcoran College of Art and Design",
+        "degree":"Intro to Graphic Design",
+        "graduated":"??",
+        "description":""
+      },
+      {
+        "school":"Project Management Institute",
+        "degree":"Hands-on IT Project Management",
         "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":""
+      },
+      {
+        "school":"Carnegie Mellon University",
+        "degree":"Mellon College of Sciences",
+        "graduated":"1992 - 1995",
+        "description":"I discovered a lot about myself and made some lifelong friends."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Agency Q",
+        "title":"Freelance Web Developer",
+        "years":"February 2019 - Present",
+        "description":"Working in partnership with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Association of American Medical Colleges",
+        "title":"Senior Software Engineer",
+        "years":"June 2016 - September 2018",
+        "description":"Maintained and developed new functionality for survey and reporting tools that target association members, including medical schools, faculty, and students. The survey and reporting tools include Development Survey, Faculty Salary Survey, GME Track, and Student Record System. The tools were built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
+      },
+      {
+        "company":"Solution Technology Systems, Inc",
+        "title":"Senior Software Developer",
+        "years":"January 2015 - June 2016",
+        "description":"Maintained and developed new functionality for the Personnel Security System (PSS) at the Personnel Security Branch of the Environmental Protection Agency. PSS initiates, tracks, and manages background investigations for alll agency personnel. PSS was built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
+      },
+      {
+        "company":"Council for Logistics Research",
+        "title":"Senior Web Developer",
+        "years":"November 2003 - January 2015",
+        "description":"Developed and maintained software for the company and its clients. Built the company's intranet from the ground up and automated processes for expense reporting / reimbursement, time keeping, purchase requisitions, performance reviews, training requests while adhering to DSAA regulations."
+      },
+      {
+        "company":"Agency Q",
+        "title":"Freelance Web Developer",
+        "years":"November 2006 - 2013",
+        "description":"Developed and maintained software for clients of the company."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"ColdFusion",
+        "level":"80%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"MS SQL Server",
+        "level":"70%"
       },
       {
-        "name":"ReactJs",
+        "name":"Oracle",
         "level":"50%"
       },
       {
+        "name":"HTML5",
+        "level":"60%"
+      },
+      {
         "name":"CSS",
-        "level":"90%"
+        "level":"70%"
       },
       {
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
+        "name":"Balsamiq",
+        "level":"55%"
+      },
+      {
+        "name":"Jira",
+        "level":"75%"
+      },
+      {
+        "name":"Bamboo",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Subversion",
+        "level":"70%"
+      },
+      {
+        "name":"Splunk",
+        "level":"50%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Guitarist Center",
+        "category":"A capstone project for the Full Stack Web Developer bootcamp at Hyperion Dev",
+        "image":"guitarist.center.png",
+        "url":"/work/GuitaristCenter/index.html",
+        "description":"A fictional store that has a functional and persistent shopping cart and checkout.",
+        "technology": "localStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript."
       }
     ]
   },
@@ -156,7 +156,7 @@
         "user":"Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "text":"That Scott Harvey must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
         "user":"Steve Wozniak... impersonator"
       }
     ]
