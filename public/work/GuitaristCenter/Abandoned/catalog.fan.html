@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Guitarist Center* - Rock On!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="CSS/global.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/index.css" type="text/css" />
+        
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Javascript/index.js"></script>
+    
+    <script type="text/javascript" src="Javascript/product.detail.js"></script>
+    <script type="text/javascript" src="Javascript/cart.js"></script>
+    <script type="text/javascript" src="Javascript/inventory.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload="initializeInventory(); initializeCart();">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Guitarist Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalog.html">Catalog</a>
+                </li>
+                <li class="nav-item" id="cartLinkDisabled">
+                    <a class="nav-link disabled" href="#">Cart</a>
+                </li>
+                <li class="nav-item" id="cartLinkEnabled">
+                    <a class="nav-link" href="shopping.cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="locations.html">Locations</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>-->
+                <!--<li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>-->
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron" style="background-image: url(Images/hero3.jpg);">
+            <div class="container">
+                <h1 class="display-3 heroText">Guitarist Center*</h1>
+                <!--<p><em class="heroText">"Guitarist Center has a great selection!" - Rawkin Dude</em></p>-->
+                <h4 class="heroText">"Guitarist Center has a great selection!" - Rawkin Dude</h4>
+                <p><!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>-->&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+        <div class="container">
+            <div id="accordion">
+                <h3>Our Catalog</h3>
+                <div id="catalog">
+                    <div class="container">
+                        <!-- Example row of columns -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>Telecaster</h2>
+                                <a href="product.detail.html?item_id=0"><img src="Images/JimmyPageTelecaster.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Jimmy Page Telecaster Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$1,399.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=0" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(0, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--1-->
+                            <div class="col-md-4">
+                                <h2>Stratocaster</h2>
+                                <a href="product.detail.html?item_id=1"><img src="Images/PlayerStratocaster.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Player Stratocaster Maple Fingerboard Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$674.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=1" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(1, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--2-->
+                            <div class="col-md-4">
+                                <h2>Stratocaster HSS</h2>
+                                <a href="product.detail.html?item_id=2"><img src="Images/Limited-Edition-Standard-Stratocaster-HSS-Plus-Top-Maple-Fingerboard-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Limited Edition Standard Stratocaster HSS Plus Top Maple Fingerboard Electric Guitar Blue Burst" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$599.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=2" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(2, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--3-->
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>Mirror Telecaster</h2>
+                                <a href="product.detail.html?item_id=3"><img src="Images/JimmyPageMirrorTelecaster.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Jimmy Page Mirror Telecaster Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$2,499.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=3" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(3, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--4-->
+                            <div class="col-md-4">
+                                <h2>Stratocaster</h2>
+                                <a href="product.detail.html?item_id=4"><img src="Images/American-Professional-Stratocaster-Maple-Fingerboard-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender American Professional Stratocaster Maple Fingerboard Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$1,499.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=4" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(4, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--5-->
+                            <div class="col-md-4">
+                                <h2>Stratocaster SE</h2>
+                                <a href="product.detail.html?item_id=5"><img src="Images/Special-Edition-Standard-Stratocaster-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Special Edition Standard Stratocaster Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$599.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=5" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(5, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--6-->
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>Stratocaster LE</h2>
+                                <a href="product.detail.html?item_id=6"><img src="Images/Limited-Edition-Standard-Stratocaster-Maple-Fingerboard-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender Limited Edition Standard Stratocaster Maple Fingerboard Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$599.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=6" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(6, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--7-->
+                            <div class="col-md-4">
+                                <h2>Stratocaster Pro</h2>
+                                <a href="product.detail.html?item_id=7"><img src="Images/American-Professional-Stratocaster-Rosewood-Fingerboard-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender American Professional Stratocaster Rosewood Fingerboard Electric Guitar" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$1,499.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=7" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(7, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--8-->
+                            <div class="col-md-4">
+                                <h2>Elite Stratocaster</h2>
+                                <a href="product.detail.html?item_id=8"><img src="Images/American-Elite-Stratocaster-HSS-Maple-Fingerboard-Limited-Edition-Electric-Guitar.jpg" class="img-responsive img-thumbnail shadow p-3 mb-5 bg-white rounded" alt="Fender American Elite Stratocaster HSS Maple Fingerboard Limited-Edition Electric Guitar Aqua Marine Metallic" style="margin-bottom: .25rem !important;" /></a>
+                                <h4>$2099.99</h4>
+                                <p><a class="btn btn-primary" href="product.detail.html?item_id=8" role="button" style="color: white;">View details &raquo;</a>&nbsp;<a class="btn btn-primary" role="button" onclick="addToCart(8, 1); showTotalModal();" style="color: white;">Add to Cart &raquo;</a></p>
+                            </div> <!--9-->
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <h3>Cart - Onclick refresh the cart</h3>
+                <div id="cart">
+                    <p>Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
+                    Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
+                    faucibus interdum tellus libero ac justo.</p>
+                </div>
+                <h3>Shipping - This should be disabled until something is in the cart</h3>
+                <div id="shipping">
+                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus.
+                    Quisque lobortis.Phasellus pellentesque purus in massa.</p>
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                    </ul>
+                </div>
+                <h3>Credit Card - This should be disabled until something is in the cart</h3>
+                <div id="credit">
+                    <p>Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
+                    Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
+                    faucibus interdum tellus libero ac justo.</p>
+                </div>
+            </div>
+        </div> <!-- /container -->
+    </main><br />
+    <footer class="container">
+        <p>&copy; Guitarist Center* 2018-2019</p>
+        <p><em style="font-size: smaller;">*Shamelessly taking content from <a href="https://www.fender.com/" target="_blank">Fender.com</a> and <a href="www.guitarcenter.com" target="_blank">Guitar Center</a>.</em></p>
+    </footer>
+</body>
+
+</html>
