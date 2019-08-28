@@ -2,7 +2,7 @@
 
 This project was for the Full Stack Developer bootcamp I did.
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true "ReactJS Resume Website Template")
+![ReactJS Resume Website Template](/public/images/portfolio/resume-website.jpg?raw=true "ReactJS Resume Website Template")
 
 ## The Assignment
 
