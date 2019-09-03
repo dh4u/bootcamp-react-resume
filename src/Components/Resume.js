@@ -6,29 +6,30 @@ class Resume extends Component {
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
-        var description = { __html: education.description };
         return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p><div dangerouslySetInnerHTML={description} /></p></div>
+        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p></div>
       })
       var freelance = this.props.data.freelance.map(function(freelance){
-        
         return <div key={freelance.company}><h3>{freelance.company}</h3>
             <p className="info">{freelance.title}<span>&bull;</span> <em className="date">{freelance.years}</em></p>
             <p>{freelance.description}</p>
         </div>
       })
       var work = this.props.data.work.map(function(work){
-        
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
-      })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+	  })
+	  var skills = ""
+      this.props.data.skills.skillGroup.map(function(skillGroup){
+			skills += `<h3>${skillGroup.name.toString()}</h3><hr style="padding-bottom: 20px" /><ul className="skills">`
+			skillGroup.skill.map(function(skill){
+				var className = `bar-expand ${skill.name.toLowerCase()}`
+				skills += `<li key="${skill.name}"><span style="width:${skill.level}" className="${className}"></span><em>${skill.name}</em></li>`
+			})
+			skills += `</ul>`
+		})
     }
 
     return (
@@ -82,16 +83,10 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
+            <p>{skillmessage}</p>
+            <div  dangerouslySetInnerHTML={{ __html: skills}} className="bars" />
 				</div>
 			</div>
-      </div>
    </section>
     );
   }

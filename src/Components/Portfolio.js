@@ -1,72 +1,74 @@
 import React, { Component } from 'react';
-var linkify = require('linkifyjs');
 var linkifyHtml = require('linkifyjs/html');
 
 class Portfolio extends Component {
-	linkify = this.linkify
-
-	createProjectDisplay = (projects) => {
-		return projects.map(function (projects) {
-			var projectImage = projects.image
-			var projectDescription = linkifyHtml(projects.description)
-
-			return <div key={projects.title} className="columns portfolio-item">
-				<div className="row">
-					<div className="item-wrap">
-						<a href={projects.url} title={projects.title} target="_blank">
-							<figure style={{ maxWidth: 'col-3' }}>
-								<img alt={projects.title} src={process.env.PUBLIC_URL + projectImage} />
-							</figure>
-							<div className="overlay">
-								<div className="portfolio-item-meta">
-									<h5>{projects.title}</h5>
-									{/* <p dangerouslySetInnerHTML={ {__html: projects.category} }/> */}
-									<p>{projects.category}</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div>
-						<h5>{projects.title}</h5>
-						{/* the description was not converting the text to clickable hyperlinks */}
-						{/* <p>{projects.description}</p> */}
-						{<p dangerouslySetInnerHTML={{ __html: projectDescription }} />}
-						{projects.technology != "" ?
-							(
-								<p><strong><i>Concepts / technologies included:</i></strong><br />{projects.technology}</p>
-							)
-							:
-							("")
-
-						}
-					</div>
-				</div>
-			</div>
-		})
-	}
 
 	render() {
 
 		if (this.props.data) {
-			var paidProjects = this.createProjectDisplay(this.props.data.paidProjects)
+			/* var paidProjects = this.props.data.portfolio.paidProjects.map(function (project){
+				//console.log(project)
+			}) */
+			
+			var bootcampProjects = this.props.data.portfolio.bootcampProjects.map(function (project, index) {
+				var projectImage = project.image
+				,projectSolution = linkifyHtml(project.solution)
 
-			var bootcampProjects = this.createProjectDisplay(this.props.data.bootcampProjects)
+				return(
+					<div key={project.title} className="columns portfolio-item col-4">
+						<div className="item-wrap">
+							<a href={project.url} title={project.title} target="_blank">
+								<figure style={{ maxWidth: 'col-3' }}>
+									<img alt={project.title} src={process.env.PUBLIC_URL + projectImage} />
+								</figure>
+								<div className="overlay">
+									<div className="portfolio-item-meta">
+										<h5>{project.title}</h5>
+										<p dangerouslySetInnerHTML={ {__html: project.overlayText}} />
+									</div>
+								</div>
+							</a>
+						</div>
+						<div>
+							<h5>{project.title}</h5>
+							{project.technology !== "" 
+								?
+								(
+									<p><strong>Concepts / Technologies:</strong><br />{project.technology}</p>
+								)
+								:
+								("")
+							}
+							<strong>Assignment</strong><br />
+							
+							<p><span dangerouslySetInnerHTML={{ __html: project.assignment }} /></p>
+							
+							<strong>Solution</strong><br />
+							{/* the description was not converting the text to clickable hyperlinks */}
+							<span dangerouslySetInnerHTML={{ __html: projectSolution }} />
+						</div>
+					</div>
+				)
+			})
 		}
 
 		return (
-			<section id="portfolio">
-
+		<section id="portfolio">
 				<div className="row">
-
 					<div className="twelve columns collapsed">
 
 						<h1>Check Out Some of My Work.</h1>
 
 						<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-							<h2>Paid Projects</h2>
-							<div className="row">{paidProjects}</div>
+							<h2>The Eye</h2>
+							<p><em>Council for Logistics Research (CLR)</em></p>
+							<hr />
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							{/* <div className="row">{paidProjects}</div> */}
 							<h2>Bootcamp Projects</h2>
-							<div className="row">{bootcampProjects}</div>
+							<hr />
+							<div className="flex-container flex-direction: row">{bootcampProjects}</div>
 						</div>
 					</div>
 				</div>

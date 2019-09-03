@@ -1,291 +1,380 @@
 {
-  "main": {
-    "name": "Scott Harvey",
-    "occupation": "Software Engineer",
-    "description": "I have over 15 years of experience with web development technologies such as JavaScript, Adobe ColdFusion, MS SQL Server, Oracle, HTML, and CSS. I am looking to apply these skills in a Full Stack Developer position working with the MERN (MongoDB, Express.js, React.js, Node.js) stack. I have been learning this stack over the last six months and will complete the Full Stack Developer boot camp at <a href='https://www.hyperiondev.com' target='_blank'><span style='font-weight: bold'>Hyperion Dev</span></a> in September 2019.",
-    "image": "profilepic.nepal.2.jpg",
-    "bio": "I'm dry-humored and the most socialable introvert you will meet - for example - my partner and I have been to over 25 weddings together. I enjoy traveling and still find it amazing that I have been fortunate enough to travel to about 30 countries on 6 continents - most recently Nepal and Indonesia.<br /><br />I enjoy developing with ColdFusion because it is relatively easy and feature rich. It is a shame that Adobe hasn't done more for ColdFusion. Perhaps they should open source their version of CFML in order to get more developers involved and boost the profile of ColdFusion. Then again, ColdFusion is essentially a Java framework so perhaps touting that could help ColdFusion could raise its profile.<br/ ><br/ >Currently, I am attending a bootcamp where I am learning the MERN stack. It will be nice to have another tool in my toolbox and the potential opportunities that come with it. I think an ideal opportunity would be one where I get to use my knowledge of ColdFusion and could work on porting the application to the MERN stack or (a similar stack).<br /><br />Professionally, I value a sense of ownership most of all. The position that I recall most fondly was at CLR where I built an intranet for them from the ground up. I was responsible for all aspects of the project - managing web hosting including database and web server setup, database architecture / design, and software development. As I automated CLR's processes I felt great pride to be able to develop software that was fostering communication between employees and making work easier for them.<br /><br />I enjoy a challenge and I believe that if you aren't in a little over your head you will not grow. I'm looking for the next challenge.",
-    "contactmessage": "If you like what you see - please get in touch! I'd love to hear about any potential opportunities for freelance work, partnership, or employment.",
-    "email": "scott.harvey@outlook.com",
-    "phone": "202-744-5379",
-    "address": {
-      "street": "1838 6th St NW Unit 4",
-      "city": "Washington",
-      "state": "DC",
-      "zip": "20001"
-    },
-    "website": "http://www.scottharvey.dev",
-    "resumedownload": "http://scottharvey.dev",
-    "social": [
-      {
-        "name": "github",
-        "url": "http://github.com/dh4u",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Here are some of the skills I've picked up along the way:",
-    "education": [
-      {
-        "school": "Hyperion Dev",
-        "degree": "Full Stack Web Developer Certificate",
-        "graduated": "March - September 2019",
-        "description": "Comprehensive full stack web development course. Learned to build dynamic, data-driven web applications in the MERN stack. Got a refresher on HTML, CSS, and JavaScript. Learned Bootstrap 4, newer JavaScript (ES6), Node.js, MongoDB, Express, and React."
-      },
-      {
-        "school": "Adobe Inc",
-        "degree": "Certified Expert in ColdFusion",
-        "graduated": "July 2010",
-        "description": ""
-      },
-      {
-        "school": "Corcoran College of Art and Design",
-        "degree": "Intro to Graphic Design",
-        "graduated": "Summer 2007",
-        "description": ""
-      },
-      {
-        "school": "Project Management Institute",
-        "degree": "Hands-on IT Project Management",
-        "graduated": "March 2003",
-        "description": ""
-      },
-      {
-        "school": "Carnegie Mellon University",
-        "degree": "Mellon College of Sciences",
-        "graduated": "1992 - 1995",
-        "description": ""
-      }
-    ],
-    "freelance": [
-      {
-        "company": "Noble Technologies, Inc",
-        "title": "Freelance Database Developer",
-        "years": "August 2019 - Present",
-        "description": "Perform routine data management tasks, including but not limited to database backups, data loads, data validation, report writing. Assist with database design and modeling, stored procedure writing, and interface support as needed."
-      },{
-        "company": "Agency Q",
-        "title": "Freelance Web Developer",
-        "years": "February 2019 - Present",
-        "description": "Working in partnership with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
-      },
-      {
-        "company": "Agency Q",
-        "title": "Freelance Web Developer",
-        "years": "November 2006 - 2013",
-        "description": "Developed and maintained software for clients of the company."
-      }
-    ],
-    "work": [
-      {
-        "company": "Association of American Medical Colleges",
-        "title": "Senior Software Engineer",
-        "years": "June 2016 - September 2018",
-        "description": "Maintained and developed new functionality for survey and reporting tools that target association members, including medical schools, faculty, and students. The survey and reporting tools include Development Survey, Faculty Salary Survey, GME Track, and Student Record System. The tools were built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
-      },
-      {
-        "company": "Solution Technology Systems, Inc",
-        "title": "Senior Software Developer",
-        "years": "January 2015 - June 2016",
-        "description": "Maintained and developed new functionality for the Personnel Security System (PSS) at the Personnel Security Branch of the Environmental Protection Agency. PSS initiates, tracks, and manages background investigations for alll agency personnel. PSS was built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
-      },
-      {
-        "company": "Council for Logistics Research",
-        "title": "Senior Web Developer",
-        "years": "November 2003 - January 2015",
-        "description": "Developed and maintained software for the company and its clients. Built the company's intranet from the ground up and automated processes for expense reporting / reimbursement, time keeping, purchase requisitions, performance reviews, training requests while adhering to DSAA regulations."
-      }
-    ],
-    "skills": [
-      {
-        "name": "ColdFusion",
-        "level": "85%"
-      },
-      {
-        "name": "MS SQL Server",
-        "level": "70%"
-      },
-      {
-        "name": "Oracle",
-        "level": "50%"
-      },
-      {
-        "name": "HTML5",
-        "level": "60%"
-      },
-      {
-        "name": "CSS",
-        "level": "70%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "Balsamiq",
-        "level": "55%"
-      },
-      {
-        "name": "Jira",
-        "level": "75%"
-      },
-      {
-        "name": "Bamboo",
-        "level": "50%"
-      },
-      {
-        "name": "Subversion",
-        "level": "70%"
-      },
-      {
-        "name": "Splunk",
-        "level": "50%"
-      }
-    ]
-  },
-  "portfolio": {
-    "bootcampProjects": [
-      {
-        "title": "Bootcamp - Cars v1",
-        "category": "A project for the Web Development Essentials section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-cars.v1.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-cars/tree/v1",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to designed to teach object-oriented programming.<br /><br />My solution is a simple page that shows various car models and shows the description of the car when clicked.",
-        "technology": "Bootstrap 4, HTML, and JavaScript."
-      },
-      {
-        "title": "Bootcamp - Restaurant POS",
-        "category": "A project for the Web Development Essentials section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-restaurant-POS.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to create an ordering system that would be used by wait staff to submit orders to the bar and kitchen.",
-        "technology": "Bootstrap 4, HTML, and JavaScript."
-      },
-      {
-        "title": "Bootcamp - Guitarist Center v2",
-        "category": "A capstone project for the Web Development Essentials section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-guitar-store.v2.png",
-        "demo": "/work/GuitaristCenter/index.html",
-        "GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v2",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to make an online store with a functional shopping cart and a checkout process that offers the ability to use a discount code.",
-        "technology": "sessionStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript."
-      },
-      {
-        "title": "Bootcamp - React Resume",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-react-resume.jpg",
-        "demo": "https://dh4u-bootcamp-react-resume.herokuapp.com/",
-        "GitHub": "https://github.com/dh4u/bootcamp-react-resume",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to make an online resume using ReactJS. <br /><br />I created <a href='https://dh4u-bootcamp-react-resume.herokuapp.com/'>https://dh4u-bootcamp-react-resume.herokuapp.com/</a> by forking Tim Baker's ReactJs template - https://github.com/tbakerx/react-resume-template and updating the content.",
-        "technology": "ReactJS"
-      },
-      {
-        "title": "Bootcamp - Guitarist Center v3",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-guitar-store.v2.png",
-        "demo": "https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com",
-        "GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v3",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was designed to teach ReactJS events.",
-        "technology": "localStorage for shopping cart persistence, ReactJS, React Bootstrap, jQuery, and jQueryUI"
-      },
-      {
-        "title": "Bootcamp - Calculator",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-calculator.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-calculator",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was designed to teach ReactJS events by making a calculator.",
-        "technology": "ReactJS and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - To-do List v1",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-to-do.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was designed to teach ReactJS events by making a to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists. ",
-        "technology": "ReactJS and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - Currency Converter / Three Card Monte",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-currency-converter-and-monte-game.2.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to create an app that allows the user to choose between two functions – a currency converter and a Three-card Monte game.<br /><br />The currency converter fetches the current exchange rates from https://apilayer.com/ in order to convert currency between US Dollars, Euros, Pounds Sterling, and South African Rands.<br /><br />The Three-Card Monte game is a simple game of chance that gives feedback about the winning or losing streak.",
-        "technology": "ReactJS and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - Connect Four",
-        "category": "A capstone project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-connect-four.png",
-        "demo": "https://dh4u-bootcamp-connect-four.herokuapp.com",
-        "GitHub": "https://github.com/dh4u/bootcamp-connect-four",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to create a simple game (other than Tic-Tac-Toe) using React.",
-        "technology": "ReactJS and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - Current Weather",
-        "category": "A project for the React / Express section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-current-weather.3.png",
-        "demo": "https://dh4u-bootcamp-current-weather.herokuapp.com",
-        "GitHub": "https://github.com/dh4u/bootcamp-current-weather",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to create a ReactJS app that will display the weather in a city of the user’s choice. The user should be able to enter or select the name of the city that they would like to see the weather for. The app should get the weather by fetching the OpenWeatherMap API: https://openweathermap.org/current.",
-        "technology": "ReactJS and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - Cars v2",
-        "category": "A project for the Full Stack section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-cars.v2.1.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-cars",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to create a full stack web application (create the back-end of the application using Express and the front-end using React). The data is stored in a MongoDB that stores information about cars in a collection called cars.",
-        "technology": "ExpressJS, MongoDB (Mongoose), NodeJS, ReactJS, and React Bootstrap"
-      },
-      {
-        "title": "Bootcamp - To-do List v2 (with Login)",
-        "category": "A project for the Full Stack section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-to-do.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.",
-        "technology": "ExpressJS, MongoDB (Mongoose), NodeJS, ReactJS, React Bootstrap, and React Simple Storage"
-      },
-      {
-        "title": "Bootcamp - Using an API",
-        "category": "A project for the Full Stack section of the Full Stack Web Developer bootcamp I completed.",
-        "image": "images/portfolio/bootcamp-star-wars.1.png",
-        "demo": "",
-        "GitHub": "https://github.com/dh4u/bootcamp-star-wars",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to use NextJS to build a dynamic website that uses data retrieved from an API.",
-        "technology": ""
-      }
-    ],
-    "paidProjects": [
-      {
-        "title": "CLR - The Eye",
-        "category": "Category.",
-        "image": "images/portfolio/bootcamp-cars.v1.png",
-        "demo": "",
-        "GitHub": "",
-        "description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to designed to teach object-oriented programming.<br /><br />My solution is a simple page that shows various car models and shows the description of the car when clicked.",
-        "technology": "ColdFusion, MS SQL Server, HTML, and JavaScript."
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Scott Harvey must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+	"main": {
+		"name": "Scott Harvey",
+		"occupation": "Software Engineer",
+		"description": "I have over 15 years of experience with web development technologies such as JavaScript, Adobe ColdFusion, MS SQL Server, Oracle, HTML, and CSS. I am looking to apply these skills in a Full Stack Developer position working with the MERN stack (MongoDB, Express.js, React.js, Node.js). I have been learning this stack over the last six months and will complete the Full Stack Developer boot camp at <a href='https://www.hyperiondev.com' target='_blank'><span style='font-weight: bold'>Hyperion Dev</span></a> in September 2019.",
+		"image": "profilepic.nepal.2.jpg",
+		"bio": "<p>I'm dry-humored and the most socialable introvert you will meet - for example - my partner and I have been to over 25 weddings together and I've dragged her to the majority of them. I enjoy traveling and still find it amazing that I have been fortunate enough to travel to about 30 countries on 6 continents - most recently Nepal and Indonesia.</p><p>I enjoy developing with ColdFusion because it is relatively easy and feature rich. It is a shame that Adobe hasn't done more for ColdFusion. Perhaps they should open source their version of CFML in order to get more developers involved and boost the profile of ColdFusion. Then again, ColdFusion is essentially a Java framework so perhaps touting that could help ColdFusion could raise its profile.</p><p>Currently, I am attending a bootcamp where I am learning the MERN stack. It will be nice to have another tool in my toolbox and the potential opportunities that come with it. I think an ideal opportunity would be one where I get to use my knowledge of ColdFusion and could work on porting the application to the MERN stack or (a similar stack).</p><p>Professionally, I value a sense of ownership most of all. The position that I recall most fondly was at CLR where I built an intranet for them from the ground up. I was responsible for all aspects of the project - managing web hosting including database and web server setup, database architecture / design, and software development. As I automated CLR's processes I felt great pride to be able to develop software that was fostering communication between employees and making work easier for them.</p><p>I enjoy a challenge and I believe that if you aren't in a little over your head you will not grow. I'm looking for the next challenge.</p>",
+		"contactmessage": "If you like what you see - please get in touch! I'd love to hear about any potential opportunities for freelance work, partnership, or employment.",
+		"email": "scott.harvey@outlook.com",
+		"phone": "202-744-5379",
+		"address": {
+			"street": "1838 6th St NW Unit 4",
+			"city": "Washington",
+			"state": "DC",
+			"zip": "20001"
+		},
+		"website": "http://www.scottharvey.dev",
+		"resumedownload": "http://scottharvey.dev",
+		"social": [
+			{
+				"name": "github",
+				"url": "http://github.com/dh4u",
+				"className": "fa fa-github"
+			}
+		]
+	},
+	"resume": {
+		"education": [
+			{
+				"school": "Hyperion Dev",
+				"degree": "Full Stack Web Developer Certificate",
+				"graduated": "March - September 2019",
+				"description": "Comprehensive full stack web development course. Learned to build dynamic, data-driven web applications in the MERN stack. Got a refresher on HTML, CSS, and JavaScript. Learned Bootstrap 4, newer JavaScript (ES6), Node.js, MongoDB, Express, and React."
+			},
+			{
+				"school": "Adobe Inc",
+				"degree": "Certified Expert in ColdFusion",
+				"graduated": "July 2010",
+				"description": ""
+			},
+			{
+				"school": "Corcoran College of Art and Design",
+				"degree": "Intro to Graphic Design",
+				"graduated": "Summer 2007",
+				"description": ""
+			},
+			{
+				"school": "Project Management Institute",
+				"degree": "Hands-on IT Project Management",
+				"graduated": "March 2003",
+				"description": ""
+			},
+			{
+				"school": "Carnegie Mellon University",
+				"degree": "Mellon College of Sciences",
+				"graduated": "1992 - 1995",
+				"description": ""
+			}
+		],
+		"freelance": [
+			{
+				"company": "Noble Technologies, Inc",
+				"title": "Freelance Database Developer",
+				"years": "August 2019 - Present",
+				"description": "Perform routine data management tasks, including but not limited to database backups, data loads, data validation, report writing. Assist with database design and modeling, stored procedure writing, and interface support as needed."
+			},
+			{
+				"company": "Agency Q",
+				"title": "Freelance Web Developer",
+				"years": "February 2019 - Present",
+				"description": "Working in partnership with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
+			},
+			{
+				"company": "Agency Q",
+				"title": "Freelance Web Developer",
+				"years": "November 2006 - 2013",
+				"description": "Developed and maintained software for clients of the company."
+			}
+		],
+		"work": [
+			{
+				"company": "Association of American Medical Colleges",
+				"title": "Senior Software Engineer",
+				"years": "June 2016 - September 2018",
+				"description": "Maintained and developed new functionality for survey and reporting tools that target association members, including medical schools, faculty, and students. The survey and reporting tools include Development Survey, Faculty Salary Survey, GME Track, and Student Record System. The tools were built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
+			},
+			{
+				"company": "Solution Technology Systems, Inc",
+				"title": "Senior Software Developer",
+				"years": "January 2015 - June 2016",
+				"description": "Maintained and developed new functionality for the Personnel Security System (PSS) at the Personnel Security Branch of the Environmental Protection Agency. PSS initiates, tracks, and manages background investigations for alll agency personnel. PSS was built using a combination of ColdFusion, Oracle, HTML, JavaScript, and CSS. "
+			},
+			{
+				"company": "Council for Logistics Research",
+				"title": "Senior Web Developer",
+				"years": "November 2003 - January 2015",
+				"description": "Developed and maintained software for the company and its clients. Built the company's intranet from the ground up and automated processes for expense reporting / reimbursement, time keeping, purchase requisitions, performance reviews, training requests while adhering to DSAA regulations."
+			}
+		],
+		"skills": {
+			"skillmessage": "Here are some of the skills I've picked up along the way:",
+			"skillGroup": [
+				{
+					"name": "HTML / CSS",
+					"skill": [
+						{
+							"name": "HTML",
+							"level": "85%"
+						},
+						{
+							"name": "JSX",
+							"level": "75%"
+						},
+						{
+							"name": "CSS",
+							"level": "75%"
+						},
+						{
+							"name": "Bootstrap",
+							"level": "75%"
+						}
+					]
+				},
+				{
+					"name": "JavaScript",
+					"skill": [
+						{
+							"name": "JavaScript",
+							"level": "85%"
+						},
+						{
+							"name": "React",
+							"level": "65%"
+						},
+						{
+							"name": "Node",
+							"level": "65%"
+						},
+						{
+							"name": "jQuery",
+							"level": "85%"
+						}
+					]
+				},
+				{
+					"name": "Database",
+					"skill": [
+						{
+							"name": "MongoDB",
+							"level": "75%"
+						},
+						{
+							"name": "MS SQL Server",
+							"level": "85%"
+						},
+						{
+							"name": "Oracle",
+							"level": "80%"
+						}
+					]
+				},
+				{
+					"name": "Server-side Scripting",
+					"skill": [
+						{
+							"name": "ColdFusion",
+							"level": "90%"
+						},
+						{
+							"name": "PHP",
+							"level": "50%"
+						}
+					]
+				},
+				{
+					"name": "Tools / Content Management",
+					"skill": [
+						{
+							"name": "Balsamiq",
+							"level": "75%"
+						},
+						{
+							"name": "GitHub",
+							"level": "70%"
+						},
+						{
+							"name": "Subversion",
+							"level": "85%"
+						},
+						{
+							"name": "Bamboo",
+							"level": "65%"
+						},
+						{
+							"name": "Splunk",
+							"level": "65%"
+						},
+						{
+							"name": "HubSpot CMS",
+							"level": "85%"
+						}
+					]
+				},
+				{
+					"name": "Project / Content Management",
+					"skill": [
+						{
+							"name": "Jira",
+							"level": "85%"
+						},
+						{
+							"name": "Slack",
+							"level": "70%"
+						},
+						{
+							"name": "HubSpot CMS",
+							"level": "75%"
+						}
+					]
+				}
+			]
+		},
+		"portfolio": {
+			"bootcampProjects": [
+				{
+					"title": "Cars v1",
+					"overlayText": "This is a simple page that shows various car models and shows the description of the car when clicked.",
+					"image": "images/portfolio/bootcamp-cars.v1.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-cars/tree/v1",
+					"assignment": "<p>Learn object-oriented programming.</p>",
+					"solution": "<p>A simple page that shows various car models and shows the description of the car when clicked.</p>",
+					"technology": "Bootstrap 4, HTML, and JavaScript."
+				},
+				{
+					"title": "Restaurant POS",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store..",
+					"image": "images/portfolio/bootcamp-restaurant-POS.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
+					"assignment": "<p>Create an ordering system that would be used by wait staff to submit orders to the bar and kitchen.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS ordering system.</p>",
+					"technology": "Bootstrap 4, HTML, and JavaScript."
+				},
+				{
+					"title": "Guitarist Center v2",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store with a functional shopping cart and a checkout process that offers the ability to use a discount code.",
+					"image": "images/portfolio/bootcamp-guitar-store.v2.png",
+					"demo": "/work/GuitaristCenter/index.html",
+					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v2",
+					"assignment": "<p>Make an online store with a functional shopping cart and a checkout process that offers the ability to use a discount code.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS online store with a functional shopping cart and a checkout process that offers the ability to use a discount code.</p>",
+					"technology": "sessionStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript."
+				},
+				{
+					"title": "React Resume",
+					"overlayText": "<p>I made a resume demo by forking Tim Baker's ReactJs template.</p>",
+					"image": "images/portfolio/bootcamp-react-resume.jpg",
+					"demo": "https://dh4u-bootcamp-react-resume.herokuapp.com/",
+					"GitHub": "https://github.com/dh4u/bootcamp-react-resume",
+					"assignment": "<p>Use React to create an online CV for yourself. For an example of what an online CV typically looks like, have a look at <a href='https://jonbloomer.com.au'>this example</a>.</p>",
+					"solution": "<p>I made this <a href='https://dh4u-bootcamp-react-resume.herokuapp.com/'>resume demo</a> by forking Tim Baker's ReactJs template - https://github.com/tbakerx/react-resume-template and updating the content.</p>",
+					"technology": "ReactJS"
+				},
+				{
+					"title": "Guitarist Center v3",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store.",
+					"image": "images/portfolio/bootcamp-guitar-store.v2.png",
+					"demo": "https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com",
+					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v3",
+					"assignment": "<p>Learn ReactJS events.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS guitar store.</p>",
+					"technology": "localStorage for shopping cart persistence, ReactJS, React Bootstrap, jQuery, and jQueryUI"
+				},
+				{
+					"title": "Calculator",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS calculator.",
+					"image": "images/portfolio/bootcamp-calculator.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-calculator",
+					"assignment": "<p>Learn ReactJS events.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS calculator.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "To-do List v1",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists.",
+					"image": "images/portfolio/bootcamp-to-do.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
+					"assignment": "<p>Learn ReactJS events.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "Currency Converter / Three Card Monte",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
+					"image": "images/portfolio/bootcamp-currency-converter-and-monte-game.2.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
+					"assignment": "<p>Create an app that allows the user to choose between two functions – a currency converter and a Three-card Monte game.</p><p>The user should be able to enter a figure in dollars and the app should calculate and display the amount in South African Rands, UK pounds and Euros. The components that display the converted values should be children of the conversion component.</p><p>The user should be shown three ‘Card’ components that they can click. When the user clicks on a ‘card’ the card should be ‘turned’ to reveal a message which either indicates that they’ve won a prize or that they’ve lost. They should only be able to pick one ‘card’ with each try. Once they’ve picked a ‘card’ they should no longer be able to click the ‘cards’ but should either be able to ‘Try again’ or ‘Quit’. The winning card should be different each time.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.</p><p>The currency converter fetches the current exchange rates from https://apilayer.com/ in order to convert currency between US Dollars, Euros, Pounds Sterling, and South African Rands.</p><p>The Three-Card Monte game is a simple game of chance where the player picks one of three cards.</p><p>In addition to the assignment's requirements the game also gives feedback about the winning or losing streak that the player is having.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "Connect Four",
+					"overlayText": "<p>Used create-react-app to bootstrap a ReactJS game of <em>Connect Four</em>.</p>",
+					"image": "images/portfolio/bootcamp-connect-four.png",
+					"demo": "https://dh4u-bootcamp-connect-four.herokuapp.com",
+					"GitHub": "https://github.com/dh4u/bootcamp-connect-four",
+					"assignment": "<p>Create a simple game (other than Tic-Tac-Toe) using React.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS game of <em>Connect Four</em>.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "Current Weather",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS app that displays the current weather in the city of the user's choice by fetching it from the OpenWeatherMap API.",
+					"image": "images/portfolio/bootcamp-current-weather.3.png",
+					"demo": "https://dh4u-bootcamp-current-weather.herokuapp.com",
+					"GitHub": "https://github.com/dh4u/bootcamp-current-weather",
+					"assignment": "<p>Create a ReactJS app that will display the weather in a city of the user’s choice. The user should be able to enter or select the name of the city that they would like to see the weather for. The app should get the weather by fetching the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a></p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS app that displays the current weather in the city of the user's choice by fetching it from the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a>.</p><p>The app adds the user's previous choices to a selector that triggers a fresh API call to the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a>.</p><p>In order to improve on the assigned project I also used the <a href='https://developers.google.com/maps/documentation/javascript/get-api-key'>Google Maps API</a> to fetch and auto-suggest names of cities as the user types.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "Cars v2",
+					"overlayText": "Used Express to build an RESTful API that serves as the back-end for a React front-end that is a simplified version of an inventory tracker for an automobile dealership.",
+					"image": "images/portfolio/bootcamp-cars.v2.1.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-cars",
+					"assignment": "<p>Create a full stack web application that uses a MongoDB collection to store a collection about cars in an inventory. Create the back-end of the application using Express and the front-end using React.</p>",
+					"solution": "<p>Used Express to build an RESTful API that serves as the back-end for a React front-end that is a simplified version of an inventory tracker for an automobile dealership. The API uses Mongoose to interface with MongoDB in order to save cars to the inventory. The React front-end was bootstrapped using create-react-app.</p>",
+					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS)and React Bootstrap"
+				},
+				{
+					"title": "To-do List v2 (with Login)",
+					"overlayText": "Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.",
+					"image": "images/portfolio/bootcamp-to-do.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
+					"assignment": "<p>Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.</p>",
+					"solution": "<p>Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.</p><p>Used help from <a href='https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669' className='col s5' rel='noopener noreferrer' target='_blank'>Build a Login/Auth App with the MERN Stack</a> and <a href='https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2' className='col s5' rel='noopener noreferrer' target='_blank'>How to take advantage of Local Storage in your React projects</a> for authentication and session management.</p>",
+					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS), React Bootstrap, and React Simple Storage"
+				},
+				{
+					"title": "Using an API",
+					"overlayText": "Used NextJS to fetch data from the Star Wars API and ReactJS to create a list / drilldown style app for Star Wars characters.",
+					"image": "images/portfolio/bootcamp-star-wars.1.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-star-wars",
+					"assignment": "<p>Use NextJS to build a dynamic website that uses data retrieved from an API.</p>",
+					"solution": "<p>Used NextJS to fetch data from the <a href='https://swapi.co'>Star Wars API</a> and ReactJS to create a list / drilldown style app for Star Wars characters. The app fetches data from the API and displays 5 random character names that drill down to more detail about the character.</p>",
+					"technology": "NextJS and ReactJS"
+				}
+			],
+			"paidProjects": [
+				{
+					"title": "CLR - The Eye",
+					"image": "images/portfolio/bootcamp-cars.v1.png",
+					"demo": "",
+					"GitHub": "",
+					"description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to designed to teach object-oriented programming.<br />My solution is a simple page that shows various car models and shows the description of the car when clicked.",
+					"technology": "ColdFusion, MS SQL Server, HTML, and JavaScript."
+				}
+			]
+		},
+		"testimonials": {
+			"testimonials": [
+				{
+					"text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+					"user": "Kareem Abdul Jabbar"
+				},
+				{
+					"text": "That Scott Harvey must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet!",
+					"user": "Steve Wozniak... impersonator"
+				}
+			]
+		}
+	}
 }

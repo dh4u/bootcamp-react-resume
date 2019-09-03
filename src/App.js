@@ -30,11 +30,11 @@ class App extends Component {
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({resumeData: data})
       }.bind(this),
       error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
+        console.log(err)
+        //alert(err);
       }
     });
   }
@@ -44,12 +44,14 @@ class App extends Component {
   }
 
   render() {
+    console.log("this.state.resumeData");
+    console.log(this.state.resumeData)
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Portfolio data={this.state.resumeData.resume}/>
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>

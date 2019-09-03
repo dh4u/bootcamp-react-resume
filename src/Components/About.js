@@ -26,7 +26,7 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p><div dangerouslySetInnerHTML={bio} style={{color: '#fff'}} /></p>
+            <p dangerouslySetInnerHTML={{ __html: bio}} style={{color: '#fff'}} />
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
