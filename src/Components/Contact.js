@@ -12,6 +12,7 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var occupation = this.props.data.occupation;
     }
 
     return (
@@ -21,7 +22,7 @@ class Contact extends Component {
 
             <div className="twelve columns" style={{width: '100%', margin: 'auto', textAlign: 'center'}}>
 
-                  <p className="lead">{message}</p>
+                  <p className="lead" dangerouslySetInnerHTML={{ __html: message}} />
 
             </div>
 
@@ -33,7 +34,8 @@ class Contact extends Component {
 
 					   <h4>Address, Phone, and Email</h4>
 					   <p className="address">
-						   {name}<br />
+                     {name}<br />
+                     {occupation} / Full Stack Developer<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span><br />
