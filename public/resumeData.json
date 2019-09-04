@@ -68,7 +68,7 @@
 				"company": "Agency Q",
 				"title": "Freelance Web Developer",
 				"years": "February 2019 - Present",
-				"description": "Working in partnership with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
+				"description": "Working with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
 			},
 			{
 				"company": "Agency Q",
@@ -101,44 +101,15 @@
 			"skillmessage": "Here are some of the skills I've picked up along the way:",
 			"skillGroup": [
 				{
-					"name": "HTML / CSS",
+					"name": "Server-side Scripting",
 					"skill": [
 						{
-							"name": "HTML",
-							"level": "85%"
+							"name": "ColdFusion",
+							"level": "90%"
 						},
 						{
-							"name": "JSX",
-							"level": "75%"
-						},
-						{
-							"name": "CSS",
-							"level": "75%"
-						},
-						{
-							"name": "Bootstrap",
-							"level": "75%"
-						}
-					]
-				},
-				{
-					"name": "JavaScript",
-					"skill": [
-						{
-							"name": "JavaScript",
-							"level": "85%"
-						},
-						{
-							"name": "React",
-							"level": "65%"
-						},
-						{
-							"name": "Node",
-							"level": "65%"
-						},
-						{
-							"name": "jQuery",
-							"level": "85%"
+							"name": "PHP",
+							"level": "50%"
 						}
 					]
 				},
@@ -160,20 +131,49 @@
 					]
 				},
 				{
-					"name": "Server-side Scripting",
+					"name": "JavaScript / JavaScript Frameworks",
 					"skill": [
 						{
-							"name": "ColdFusion",
-							"level": "90%"
+							"name": "JavaScript",
+							"level": "85%"
 						},
 						{
-							"name": "PHP",
-							"level": "50%"
+							"name": "React",
+							"level": "65%"
+						},
+						{
+							"name": "Node",
+							"level": "65%"
+						},
+						{
+							"name": "jQuery",
+							"level": "85%"
 						}
 					]
 				},
 				{
-					"name": "Tools / Content Management",
+					"name": "HTML / CSS",
+					"skill": [
+						{
+							"name": "HTML",
+							"level": "85%"
+						},
+						{
+							"name": "JSX",
+							"level": "75%"
+						},
+						{
+							"name": "CSS",
+							"level": "75%"
+						},
+						{
+							"name": "Bootstrap",
+							"level": "75%"
+						}
+					]
+				},
+				{
+					"name": "Developer Tools",
 					"skill": [
 						{
 							"name": "Balsamiq",
@@ -194,10 +194,6 @@
 						{
 							"name": "Splunk",
 							"level": "65%"
-						},
-						{
-							"name": "HubSpot CMS",
-							"level": "85%"
 						}
 					]
 				},
@@ -234,7 +230,7 @@
 				},
 				{
 					"title": "Restaurant POS",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store..",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS ordering system.",
 					"image": "/images/portfolio/thumbnails/bootcamp-restaurant-POS.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
@@ -244,23 +240,13 @@
 				},
 				{
 					"title": "Guitarist Center v2",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store with a functional shopping cart and a checkout process that offers the ability to use a discount code.",
+					"overlayText": "Used a previous project for an online guitar store and added a functional shopping cart that meets the requirements.",
 					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumb.png",
 					"demo": "/work/GuitaristCenter/index.html",
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v2",
-					"assignment": "<p>Make an online store with a functional shopping cart and a checkout process that offers the ability to use a discount code.</p>",
-					"solution": "<p>Used create-react-app to bootstrap a ReactJS online store with a functional shopping cart and a checkout process that offers the ability to use a discount code.</p>",
+					"assignment": "<p>Make an online store with a functional shopping cart and a checkout process that can accept a discount code.</p>",
+					"solution": "<p>Used a previous project for an online guitar store and added a functional shopping cart that meets the requirements.</p>",
 					"technology": "sessionStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript."
-				},
-				{
-					"title": "React Resume",
-					"overlayText": "<p>I made a resume demo by forking Tim Baker's ReactJs template.</p>",
-					"image": "/images/portfolio/thumbnails/bootcamp-react-resume.thumb.png",
-					"demo": "https://dh4u-bootcamp-react-resume.herokuapp.com/",
-					"GitHub": "https://github.com/dh4u/bootcamp-react-resume",
-					"assignment": "<p>Use React to create an online CV for yourself. For an example of what an online CV typically looks like, have a look at <a href='https://jonbloomer.com.au'>this example</a>.</p>",
-					"solution": "<p>I made this <a href='https://dh4u-bootcamp-react-resume.herokuapp.com/'>resume demo</a> by forking Tim Baker's ReactJs template - https://github.com/tbakerx/react-resume-template and updating the content.</p>",
-					"technology": "ReactJS"
 				},
 				{
 					"title": "Guitarist Center v3",
@@ -272,6 +258,7 @@
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS guitar store.</p>",
 					"technology": "localStorage for shopping cart persistence, ReactJS, React Bootstrap, jQuery, and jQueryUI"
 				},
+				
 				{
 					"title": "Calculator",
 					"overlayText": "Used create-react-app to bootstrap a ReactJS calculator.",
@@ -293,14 +280,14 @@
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
-					"title": "Currency Converter / Three Card Monte",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
-					"image": "/images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumb.png",
+					"title": "Using an API",
+					"overlayText": "Used NextJS to fetch data from the Star Wars API and ReactJS to create a list / drilldown style app for Star Wars characters.",
+					"image": "/images/portfolio/thumbnails/bootcamp-star-wars.2.thumb.png",
 					"demo": "",
-					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
-					"assignment": "<p>Create an app that allows the user to choose between two functions – a currency converter and a Three-card Monte game.</p><p>The user should be able to enter a figure in dollars and the app should calculate and display the amount in South African Rands, UK pounds and Euros. The components that display the converted values should be children of the conversion component.</p><p>The user should be shown three ‘Card’ components that they can click. When the user clicks on a ‘card’ the card should be ‘turned’ to reveal a message which either indicates that they’ve won a prize or that they’ve lost. They should only be able to pick one ‘card’ with each try. Once they’ve picked a ‘card’ they should no longer be able to click the ‘cards’ but should either be able to ‘Try again’ or ‘Quit’. The winning card should be different each time.</p>",
-					"solution": "<p>Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.</p><p>The currency converter fetches the current exchange rates from https://apilayer.com/ in order to convert currency between US Dollars, Euros, Pounds Sterling, and South African Rands.</p><p>The Three-Card Monte game is a simple game of chance where the player picks one of three cards.</p><p>In addition to the assignment's requirements the game also gives feedback about the winning or losing streak that the player is having.</p>",
-					"technology": "ReactJS and React Bootstrap"
+					"GitHub": "https://github.com/dh4u/bootcamp-star-wars",
+					"assignment": "<p>Use NextJS to build a dynamic website that uses data retrieved from an API.</p>",
+					"solution": "<p>Used NextJS to fetch data from the <a href='https://swapi.co'>Star Wars API</a> and ReactJS to create a list / drilldown style app. The app displays 5 random character names that drill down to character details.</p>",
+					"technology": "NextJS and ReactJS"
 				},
 				{
 					"title": "Connect Four",
@@ -323,6 +310,16 @@
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
+					"title": "Currency Converter / Three Card Monte",
+					"overlayText": "Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
+					"image": "/images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumb.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
+					"assignment": "<p>Create an app that allows the user to choose between a currency converter and a Three-card Monte game.</p><p>Converter: The user should be able to enter a number of dollars, which the app calculates and displays in Rands, Pounds, and Euros. Components displaying converted values should be children of the conversion component.</p><p>Game: The user should be shown 3 ‘Cards’. When clicked, they 'turn' to reveal a won or lost message. The player can then ‘Try again’ or ‘Quit’. The winning card should be different each time.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS app. Exchange rates are fetched from https://apilayer.com/. The game fulfills requirements and notes winning or losing streaks.</p>",
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
 					"title": "Cars v2",
 					"overlayText": "Used Express to build an RESTful API that serves as the back-end for a React front-end that is a simplified version of an inventory tracker for an automobile dealership.",
 					"image": "/images/portfolio/thumbnails/bootcamp-cars.v2.1.thumb.png",
@@ -341,16 +338,6 @@
 					"assignment": "<p>Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.</p>",
 					"solution": "<p>Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.</p><p>Used help from <a href='https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669' className='col s5' rel='noopener noreferrer' target='_blank'>Build a Login/Auth App with the MERN Stack</a> and <a href='https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2' className='col s5' rel='noopener noreferrer' target='_blank'>How to take advantage of Local Storage in your React projects</a> for authentication and session management.</p>",
 					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS), React Bootstrap, and React Simple Storage"
-				},
-				{
-					"title": "Using an API",
-					"overlayText": "Used NextJS to fetch data from the Star Wars API and ReactJS to create a list / drilldown style app for Star Wars characters.",
-					"image": "/images/portfolio/thumbnails/bootcamp-star-wars.2.thumb.png",
-					"demo": "",
-					"GitHub": "https://github.com/dh4u/bootcamp-star-wars",
-					"assignment": "<p>Use NextJS to build a dynamic website that uses data retrieved from an API.</p>",
-					"solution": "<p>Used NextJS to fetch data from the <a href='https://swapi.co'>Star Wars API</a> and ReactJS to create a list / drilldown style app for Star Wars characters. The app fetches data from the API and displays 5 random character names that drill down to more detail about the character.</p>",
-					"technology": "NextJS and ReactJS"
 				}
 			],
 			"paidProjects": [

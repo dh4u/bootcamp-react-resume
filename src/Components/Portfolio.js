@@ -15,7 +15,8 @@ class Portfolio extends Component {
 				,projectSolution = linkifyHtml(project.solution)
 
 				return(
-					<div key={project.title} className="columns portfolio-item col-4">
+					<div key={project.title} className="columns portfolio-item col-4" style={{width: '25%',
+						boxSizing: 'border-box'}}>
 						<div className="item-wrap">
 							<a href={project.url} title={project.title} target="_blank">
 								<figure style={{ maxWidth: 'col-3' }}>
@@ -34,7 +35,7 @@ class Portfolio extends Component {
 							{project.technology !== "" 
 								?
 								(
-									<p><strong>Concepts / Technologies:</strong><br />{project.technology}</p>
+									<p><strong>Concepts/Technologies</strong><br />{project.technology}</p>
 								)
 								:
 								("")
@@ -68,7 +69,7 @@ class Portfolio extends Component {
 							{/* <div className="row">{paidProjects}</div> */}
 							<h2>Bootcamp Projects</h2>
 							<hr />
-							<div className="flex-container flex-direction: row">{bootcampProjects}</div>
+							<div style={{display: 'flex', flexWrap: 'wrap'}}>{bootcampProjects}</div>
 						</div>
 					</div>
 				</div>

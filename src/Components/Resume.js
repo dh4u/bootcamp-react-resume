@@ -26,7 +26,7 @@ class Resume extends Component {
 			skills += `<h3>${skillGroup.name.toString()}</h3><hr style="padding-bottom: 20px" /><ul className="skills">`
 			skillGroup.skill.map(function(skill){
 				var className = `bar-expand ${skill.name.toLowerCase()}`
-				skills += `<li key="${skill.name}"><span style="width:${skill.level}" className="${className}"></span><em>${skill.name}</em></li>`
+				skills += `<li key="${skill.name}"><span style="width:${skill.level}" class="${className}"></span><em>${skill.name}</em></li>`
 			})
 			skills += `</ul>`
 		})
@@ -65,7 +65,7 @@ class Resume extends Component {
     <div className="row work">
 
       <div className="three columns header-col">
-          <h1><span>Work</span></h1>
+          <h1><span>Full-time Work</span></h1>
       </div>
 
       <div className="nine columns main-col">

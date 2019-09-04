@@ -54,7 +54,7 @@
       height: 114px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
+   #about .contact-details { width: 50%; color: #fff }
    #about .download { width: 50%; }
 
    /* Resume Section
@@ -123,7 +123,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 0px;
    }
 
 	#nav-wrap > a:before,
