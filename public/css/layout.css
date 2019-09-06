@@ -976,6 +976,9 @@ footer .copyright {
     margin: 0;
     padding: 0;
  }
+copyright ul{
+   list-style-type: none;
+}
 footer .copyright li {
     display: inline-block;
     margin: 0;
@@ -986,7 +989,7 @@ footer .copyright li {
    display: inline;
 }
 footer .copyright li:before {
-    content: "\2022";
+    /* content: "\2022"; */
     padding-left: 10px;
     padding-right: 10px;
     color: #095153;
