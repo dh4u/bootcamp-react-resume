@@ -61,8 +61,8 @@ class Portfolio extends Component {
 						<h1>Check Out Some of My Work.</h1>
 
 						<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-							<h2>The Eye</h2>
-							<p><em>Council for Logistics Research (CLR)</em><br /><span style={{fontSize: 'smaller'}}>Click on an image to reveal the entire screenshot</span></p>
+							<h2>Council for Logistics Research (CLR)</h2>
+							<p><em>The Eye</em><br /><span style={{fontSize: 'smaller'}}>Click on an image to reveal the entire screenshot</span></p>
 							<hr />
 							<div style={{display: 'flex', flexWrap: 'wrap'}}>
 								<div key="CLR - Dashboard" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
