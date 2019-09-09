@@ -62,12 +62,32 @@ class Portfolio extends Component {
 
 						<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 							<h2>The Eye</h2>
-							<p><em>Council for Logistics Research (CLR)</em></p>
+							<p><em>Council for Logistics Research (CLR)</em><br />{/* <span style={{fontSize: 'smaller'}}>Click on an image to reveal more screenshots</span> */}</p>
 							<hr />
-							<p>&nbsp;</p>
-							<p>&nbsp;</p>
+							<div style={{display: 'flex', flexWrap: 'wrap'}}>
+								<div key="CLR - Dashboard" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-dashboard.thumbnail.png'} alt="CLR Dashboard" />
+								</div>
+								<div key="CLR - Timesheet" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png'} alt="CLR Timesheet" />
+								</div>
+								{/* <div key="CLR - IntranetCMS - Content Management" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-intranetCMS.intranet.form.thumbnail.png'} alt="CLR IntranetCMS - Content Management" />
+								</div> */}
+								<div key="CLR - IntranetCMS - HR" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png'} alt="CLR IntranetCMS - HR" />
+								</div>
+								<div key="CLR - IntranetCMS - Supervisor Resources" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png'} alt="CLR IntranetCMS - HR" />
+								</div>
+								{/* <div key="CLR - Scheduled Task Manager" className="portfolio-item column" style={{paddingLeft: '5px', paddingRight: '5px', boxSizing: 'border-box'}}>
+									<img src={'/images/portfolio/thumbnails/clr-scheduled.task.manager.thumbnail.png'} alt="CLR Scheduled Task Manager" />
+								</div> */}
+							</div>
 							{/* <div className="row">{paidProjects}</div> */}
+							<br />
 							<h2>Bootcamp Projects</h2>
+							Click to view a demo or go to the source at Github
 							<hr />
 							<div style={{display: 'flex', flexWrap: 'wrap'}}>{bootcampProjects}</div>
 						</div>
