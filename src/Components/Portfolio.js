@@ -62,28 +62,28 @@ class Portfolio extends Component {
 
 						<div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
 							<h2>The Eye</h2>
-							<p><em>Council for Logistics Research (CLR)</em><br />{/* <span style={{fontSize: 'smaller'}}>Click on an image to reveal more screenshots</span> */}</p>
+							<p><em>Council for Logistics Research (CLR)</em><br /><span style={{fontSize: 'smaller'}}>Click on an image to reveal the entire screenshot</span></p>
 							<hr />
 							<div style={{display: 'flex', flexWrap: 'wrap'}}>
 								<div key="CLR - Dashboard" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-dashboard.cropped.png" alt="CLR Dashboard" data-lightbox="CLR" data-title="The home page for The Eye" >
 										<img src={'/images/portfolio/thumbnails/clr-dashboard.thumbnail.png'} alt="CLR Dashboard"/>
-									</a>
+									</a><strong>The home page for The Eye</strong>
 								</div>
 								<div key="CLR - Timesheet" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-timesheet.form.cropped.png" alt="CLR Timesheet" data-lightbox="CLR" data-title="Timesheet entry form">
 										<img src={'/images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png'} alt="CLR Timesheet" />
-									</a>
+									</a><strong>Timesheet entry form</strong>
 								</div>
 								<div key="CLR - IntranetCMS - HR" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.hr.cropped.png" alt="CLR IntranetCMS HR" data-lightbox="CLR" data-title="Content Management for HR documents and policies">
 										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png'} alt="CLR IntranetCMS - HR" />
-									</a>
+									</a><strong>Content Management for HR documents and policies</strong>
 								</div>
 								<div key="CLR - IntranetCMS - Supervisor Resources" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.supervisor.resources.cropped.png" alt="CLR IntranetCMS Supervisor Resources" data-lightbox="CLR" data-title="Content Management of resources for supervisors">
 										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png'} alt="CLR IntranetCMS - Supervisor Resources" />
-									</a>
+									</a><strong>Content Management of resources for supervisors</strong>
 								</div>
 								<a href="/images/portfolio/clr-scheduled.task.manager.cropped.png" alt="CLR Scheduled Task Manager" data-lightbox="CLR" data-title="Scheduled task manager" style={{display: 'none'}}>
 									<img src={'/images/portfolio/thumbnails/clr-scheduled.task.manager.thumbnail.png'} alt="CLR IntranetCMS - Scheduled Task Manager" />
