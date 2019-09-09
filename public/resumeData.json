@@ -221,7 +221,7 @@
 				{
 					"title": "Cars v1",
 					"overlayText": "This is a simple page that shows various car models and shows the description of the car when clicked.",
-					"image": "/images/portfolio/thumbnails/bootcamp-cars.v1.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-cars.v1.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-cars/tree/v1",
 					"assignment": "<p>Learn object-oriented programming.</p>",
@@ -231,7 +231,7 @@
 				{
 					"title": "Restaurant POS",
 					"overlayText": "A ReactJS ordering system.",
-					"image": "/images/portfolio/thumbnails/bootcamp-restaurant-POS.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-restaurant-POS.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
 					"assignment": "<p>Create an ordering system that would be used by wait staff to submit orders to the bar and kitchen.</p>",
@@ -241,7 +241,7 @@
 				{
 					"title": "Guitarist Center v2",
 					"overlayText": "Used a previous project for an online guitar store and added a functional shopping cart that meets the requirements.",
-					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumbnail.png",
 					"demo": "/work/GuitaristCenter/index.html",
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v2",
 					"assignment": "<p>Make an online store with a functional shopping cart and a checkout process that can accept a discount code.</p>",
@@ -251,7 +251,7 @@
 				{
 					"title": "Guitarist Center v3",
 					"overlayText": "A ReactJS guitar store.",
-					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumbnail.png",
 					"demo": "https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v3",
 					"assignment": "<p>Learn ReactJS events.</p>",
@@ -262,7 +262,7 @@
 				{
 					"title": "Calculator",
 					"overlayText": "A ReactJS calculator.",
-					"image": "/images/portfolio/thumbnails/bootcamp-calculator.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-calculator.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-calculator",
 					"assignment": "<p>Learn ReactJS events.</p>",
@@ -272,7 +272,7 @@
 				{
 					"title": "To-do List v1",
 					"overlayText": "A ReactJS to-do list.",
-					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
 					"assignment": "<p>Learn ReactJS events.</p>",
@@ -282,7 +282,7 @@
 				{
 					"title": "Using an API",
 					"overlayText": "Used NextJS to fetch data from the Star Wars API and ReactJS to create a list / drilldown style app for Star Wars characters.",
-					"image": "/images/portfolio/thumbnails/bootcamp-star-wars.2.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-star-wars.2.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-star-wars",
 					"assignment": "<p>Use NextJS to build a dynamic website that uses data retrieved from an API.</p>",
@@ -292,7 +292,7 @@
 				{
 					"title": "Connect Four",
 					"overlayText": "A ReactJS game of <em>Connect Four</em>.",
-					"image": "/images/portfolio/thumbnails/bootcamp-connect-four.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-connect-four.thumbnail.png",
 					"demo": "https://dh4u-bootcamp-connect-four.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-connect-four",
 					"assignment": "<p>Create a simple game (other than Tic-Tac-Toe) using React.</p>",
@@ -302,7 +302,7 @@
 				{
 					"title": "Current Weather",
 					"overlayText": "A ReactJS app that displays the current weather in the city of the user's choice.",
-					"image": "/images/portfolio/thumbnails/bootcamp-current-weather.1.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-current-weather.1.thumbnail.png",
 					"demo": "https://dh4u-bootcamp-current-weather.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-current-weather",
 					"assignment": "<p>Create a ReactJS app that will display the weather in a city of the user’s choice. The user should be able to enter or select the name of the city that they would like to see the weather for. The app should get the weather by fetching the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a></p>",
@@ -312,7 +312,7 @@
 				{
 					"title": "Currency Converter / Three Card Monte",
 					"overlayText": "A ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
-					"image": "/images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
 					"assignment": "<p>Create an app that allows the user to choose between a currency converter and a Three-card Monte game.</p><p>Converter: The user should be able to enter a number of dollars, which the app calculates and displays in Rands, Pounds, and Euros. Components displaying converted values should be children of the conversion component.</p><p>Game: The user should be shown 3 ‘Cards’. When clicked, they 'turn' to reveal a won or lost message. The player can then ‘Try again’ or ‘Quit’. The winning card should be different each time.</p>",
@@ -322,7 +322,7 @@
 				{
 					"title": "Cars v2",
 					"overlayText": "A ReactJS app with an RESTful Express API for a simplified version of an inventory tracker for an automobile dealership.",
-					"image": "/images/portfolio/thumbnails/bootcamp-cars.v2.1.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-cars.v2.1.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-cars",
 					"assignment": "<p>Create a full stack web application that uses a MongoDB collection to store a collection about cars in an inventory. Create the back-end of the application using Express and the front-end using React.</p>",
@@ -332,7 +332,7 @@
 				{
 					"title": "To-do List v2 (with Login)",
 					"overlayText": "The ReactJS app 'To-Do v1' with an RESTful ExpressJS API back-end. Express uses Mongoose to interface with MongoDB in order to save to-do items.",
-					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
 					"assignment": "<p>Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.</p>",
@@ -343,7 +343,7 @@
 			"paidProjects": [
 				{
 					"title": "CLR - The Eye",
-					"image": "/images/portfolio/thumbnails/bootcamp-cars.v1.thumb.png",
+					"image": "/images/portfolio/thumbnails/bootcamp-cars.v1.thumbnail.png",
 					"demo": "",
 					"GitHub": "",
 					"description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to designed to teach object-oriented programming.<br />My solution is a simple page that shows various car models and shows the description of the car when clicked.",
