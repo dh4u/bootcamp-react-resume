@@ -230,7 +230,7 @@
 				},
 				{
 					"title": "Restaurant POS",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS ordering system.",
+					"overlayText": "A ReactJS ordering system.",
 					"image": "/images/portfolio/thumbnails/bootcamp-restaurant-POS.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
@@ -250,7 +250,7 @@
 				},
 				{
 					"title": "Guitarist Center v3",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS guitar store.",
+					"overlayText": "A ReactJS guitar store.",
 					"image": "/images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumb.png",
 					"demo": "https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v3",
@@ -261,7 +261,7 @@
 				
 				{
 					"title": "Calculator",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS calculator.",
+					"overlayText": "A ReactJS calculator.",
 					"image": "/images/portfolio/thumbnails/bootcamp-calculator.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-calculator",
@@ -271,7 +271,7 @@
 				},
 				{
 					"title": "To-do List v1",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists.",
+					"overlayText": "A ReactJS to-do list.",
 					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
@@ -291,7 +291,7 @@
 				},
 				{
 					"title": "Connect Four",
-					"overlayText": "<p>Used create-react-app to bootstrap a ReactJS game of <em>Connect Four</em>.</p>",
+					"overlayText": "A ReactJS game of <em>Connect Four</em>.",
 					"image": "/images/portfolio/thumbnails/bootcamp-connect-four.thumb.png",
 					"demo": "https://dh4u-bootcamp-connect-four.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-connect-four",
@@ -301,7 +301,7 @@
 				},
 				{
 					"title": "Current Weather",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS app that displays the current weather in the city of the user's choice by fetching it from the OpenWeatherMap API.",
+					"overlayText": "A ReactJS app that displays the current weather in the city of the user's choice.",
 					"image": "/images/portfolio/thumbnails/bootcamp-current-weather.1.thumb.png",
 					"demo": "https://dh4u-bootcamp-current-weather.herokuapp.com",
 					"GitHub": "https://github.com/dh4u/bootcamp-current-weather",
@@ -311,7 +311,7 @@
 				},
 				{
 					"title": "Currency Converter / Three Card Monte",
-					"overlayText": "Used create-react-app to bootstrap a ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
+					"overlayText": "A ReactJS app that allows the user to choose between a currency converter and a Three-card Monte game.",
 					"image": "/images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
@@ -321,7 +321,7 @@
 				},
 				{
 					"title": "Cars v2",
-					"overlayText": "Used Express to build an RESTful API that serves as the back-end for a React front-end that is a simplified version of an inventory tracker for an automobile dealership.",
+					"overlayText": "A ReactJS app with an RESTful Express API for a simplified version of an inventory tracker for an automobile dealership.",
 					"image": "/images/portfolio/thumbnails/bootcamp-cars.v2.1.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-cars",
@@ -331,7 +331,7 @@
 				},
 				{
 					"title": "To-do List v2 (with Login)",
-					"overlayText": "Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.",
+					"overlayText": "The ReactJS app 'To-Do v1' with an RESTful ExpressJS API back-end. Express uses Mongoose to interface with MongoDB in order to save to-do items.",
 					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumb.png",
 					"demo": "",
 					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",

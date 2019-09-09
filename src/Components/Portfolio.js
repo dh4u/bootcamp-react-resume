@@ -11,27 +11,43 @@ class Portfolio extends Component {
 			}) */
 			
 			var bootcampProjects = this.props.data.portfolio.bootcampProjects.map(function (project, index) {
-				var projectImage = project.image
+				let projectImage = project.image
 				,projectSolution = linkifyHtml(project.solution)
+				,theURL = ""
 
+				theURL = (project.demo !== ""
+				?(theURL = project.demo)
+				:(theURL = project.GitHub))	
 				return(
 					<div key={project.title} className="columns portfolio-item col-4" style={{width: '25%',
 						boxSizing: 'border-box'}}>
 						<div className="item-wrap">
-							<a href={project.url} title={project.title} target="_blank">
-								<figure style={{ maxWidth: 'col-3' }}>
+							<figure style={{ maxWidth: 'col-3' }}>
+								<a href={theURL} title={project.title} target="_blank">
 									<img alt={project.title} src={process.env.PUBLIC_URL + projectImage} />
-								</figure>
-								<div className="overlay">
-									<div className="portfolio-item-meta">
-										<h5>{project.title}</h5>
-										<p dangerouslySetInnerHTML={ {__html: project.overlayText}} />
-									</div>
+								</a>
+							</figure>
+							<div className="overlay">
+							<a href={theURL} title={project.title} target="_blank" style={{marginTop: '-20px'}}>
+								<div className="portfolio-item-meta">
+									<h5>{project.title}</h5>
+									<p dangerouslySetInnerHTML={ {__html: project.overlayText}} />
 								</div>
-							</a>
+								</a>
+							</div>
 						</div>
 						<div>
-							<h5>{project.title}</h5>
+							<h5>
+								{project.title}<br />
+								&nbsp;&nbsp;
+								<a href={project.GitHub} alt="GitHub repository" target="_blank">
+									<i class="fab fa-github"></i>
+								</a>&nbsp;&nbsp;
+								{project.demo !== ""
+								?(<a href={project.demo} alt="Demo it" target="_blank"><i class="fas fa-external-link-alt"></i></a>)
+								:("")
+								}
+							</h5>
 							{project.technology !== "" 
 								?
 								(
@@ -47,6 +63,10 @@ class Portfolio extends Component {
 							<strong>Solution</strong><br />
 							{/* the description was not converting the text to clickable hyperlinks */}
 							<span dangerouslySetInnerHTML={{ __html: projectSolution }} />
+
+							<p>
+								
+							</p>
 						</div>
 					</div>
 				)
@@ -68,22 +88,22 @@ class Portfolio extends Component {
 								<div key="CLR - Dashboard" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-dashboard.cropped.png" alt="CLR Dashboard" data-lightbox="CLR" data-title="The home page for The Eye" >
 										<img src={'/images/portfolio/thumbnails/clr-dashboard.thumbnail.png'} alt="CLR Dashboard"/>
-									</a><strong>The home page for The Eye</strong>
+									</a><strong>Dashboard</strong><br />The home page for The Eye<br />
 								</div>
 								<div key="CLR - Timesheet" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-timesheet.form.cropped.png" alt="CLR Timesheet" data-lightbox="CLR" data-title="Timesheet entry form">
 										<img src={'/images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png'} alt="CLR Timesheet" />
-									</a><strong>Timesheet entry form</strong>
+									</a><strong>Timesheets</strong><br />Timesheet entry form
 								</div>
 								<div key="CLR - IntranetCMS - HR" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.hr.cropped.png" alt="CLR IntranetCMS HR" data-lightbox="CLR" data-title="Content Management for HR documents and policies">
 										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png'} alt="CLR IntranetCMS - HR" />
-									</a><strong>Content Management for HR documents and policies</strong>
+									</a><strong>CMS</strong><br />HR documents and policies
 								</div>
 								<div key="CLR - IntranetCMS - Supervisor Resources" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.supervisor.resources.cropped.png" alt="CLR IntranetCMS Supervisor Resources" data-lightbox="CLR" data-title="Content Management of resources for supervisors">
 										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png'} alt="CLR IntranetCMS - Supervisor Resources" />
-									</a><strong>Content Management of resources for supervisors</strong>
+									</a><strong>CMS</strong><br />Resources for supervisors
 								</div>
 								<a href="/images/portfolio/clr-scheduled.task.manager.cropped.png" alt="CLR Scheduled Task Manager" data-lightbox="CLR" data-title="Scheduled task manager" style={{display: 'none'}}>
 									<img src={'/images/portfolio/thumbnails/clr-scheduled.task.manager.thumbnail.png'} alt="CLR IntranetCMS - Scheduled Task Manager" />
