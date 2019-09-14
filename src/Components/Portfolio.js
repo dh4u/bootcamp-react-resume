@@ -80,7 +80,7 @@ class Portfolio extends Component {
 						<style jsx>
 							{` 
 							.hoverExpand:hover {
-								transform: scale(1.25);
+								transform: scale(1.15);
 								boxShadow: 0 0 10px rgba(0, 0, 0, 0.5);
 							`}
 						</style>
