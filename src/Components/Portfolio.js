@@ -56,13 +56,6 @@ class Portfolio extends Component {
 								:
 								("")
 							}
-							<strong>Assignment</strong><br />
-							
-							<p><span dangerouslySetInnerHTML={{ __html: project.assignment }} /></p>
-							
-							<strong>Solution</strong><br />
-							{/* the description was not converting the text to clickable hyperlinks */}
-							<span dangerouslySetInnerHTML={{ __html: projectSolution }} />
 
 							<p>
 								
