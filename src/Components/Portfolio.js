@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-var linkifyHtml = require('linkifyjs/html');
 
 class Portfolio extends Component {
 
@@ -12,7 +11,6 @@ class Portfolio extends Component {
 			
 			var bootcampProjects = this.props.data.portfolio.bootcampProjects.map(function (project, index) {
 				let projectImage = project.image
-				,projectSolution = linkifyHtml(project.solution)
 				,theURL = ""
 
 				theURL = (project.demo !== ""
@@ -41,10 +39,10 @@ class Portfolio extends Component {
 								{project.title}<br />
 								&nbsp;&nbsp;
 								<a href={project.GitHub} alt="GitHub repository" target="_blank">
-									<i class="fab fa-github"></i>
+									<i className="fab fa-github"></i>
 								</a>&nbsp;&nbsp;
 								{project.demo !== ""
-								?(<a href={project.demo} alt="Demo it" target="_blank"><i class="fas fa-external-link-alt"></i></a>)
+								?(<a href={project.demo} alt="Demo it" target="_blank"><i className="fas fa-external-link-alt"></i></a>)
 								:("")
 								}
 							</h5>
@@ -52,6 +50,21 @@ class Portfolio extends Component {
 								?
 								(
 									<p><strong>Concepts/Technologies</strong><br />{project.technology}</p>
+								)
+								:
+								("")
+							}
+							{project.features.length && project.features[0].feature.length
+								?
+								(
+									<div>
+									<strong>Features</strong>
+									<ul>
+										{project.features.map( (features, index) => {
+											return(<li key={`${project.title}-${features.feature}`}>{features.feature}</li>)
+										})}
+									</ul>
+									</div>
 								)
 								:
 								("")
@@ -70,10 +83,11 @@ class Portfolio extends Component {
 		<section id="portfolio">
 				<div className="row">
 					<div className="twelve columns collapsed">
-						<style jsx>
+						<style jsx="true">
 							{` 
 							.hoverExpand:hover {
 								transform: scale(1.15);
+								transition-duration: .9s;
 								boxShadow: 0 0 10px rgba(0, 0, 0, 0.5);
 							`}
 						</style>
@@ -87,22 +101,22 @@ class Portfolio extends Component {
 							<div style={{display: 'flex', flexWrap: 'wrap'}}>
 								<div key="CLR - Dashboard" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-dashboard.cropped.png" alt="CLR Dashboard" data-lightbox="CLR" data-title="The home page for The Eye" >
-										<img src={'/images/portfolio/thumbnails/clr-dashboard.thumbnail.png'} alt="CLR Dashboard" class="hoverExpand" />
+										<img src={'/images/portfolio/thumbnails/clr-dashboard.thumbnail.png'} alt="CLR Dashboard" className="hoverExpand" />
 									</a><strong>Dashboard</strong><br />The home page for <em>The Eye</em><br />
 								</div>
 								<div key="CLR - Timesheet" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-timesheet.form.cropped.png" alt="CLR Timesheet" data-lightbox="CLR" data-title="Timesheet entry form">
-										<img src={'/images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png'} alt="CLR Timesheet" class="hoverExpand" />
+										<img src={'/images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png'} alt="CLR Timesheet" className="hoverExpand" />
 									</a><strong>Timesheets</strong><br />Timesheet entry form
 								</div>
 								<div key="CLR - IntranetCMS - HR" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.hr.cropped.png" alt="CLR IntranetCMS HR" data-lightbox="CLR" data-title="Content Management for HR documents and policies">
-										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png'} alt="CLR IntranetCMS - HR" class="hoverExpand" />
+										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png'} alt="CLR IntranetCMS - HR" className="hoverExpand" />
 									</a><strong>CMS</strong><br />HR documents and policies
 								</div>
 								<div key="CLR - IntranetCMS - Supervisor Resources" className="portfolio-item column" style={{padding: '0 20px', boxSizing: 'border-box'}}>
 									<a href="/images/portfolio/clr-intranetCMS.supervisor.resources.cropped.png" alt="CLR IntranetCMS Supervisor Resources" data-lightbox="CLR" data-title="Content Management of resources for supervisors">
-										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png'} alt="CLR IntranetCMS - Supervisor Resources" class="hoverExpand" />
+										<img src={'/images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png'} alt="CLR IntranetCMS - Supervisor Resources" className="hoverExpand" />
 									</a><strong>CMS</strong><br />Resources for supervisors
 								</div>
 								<a href="/images/portfolio/clr-scheduled.task.manager.cropped.png" alt="CLR Scheduled Task Manager" data-lightbox="CLR" data-title="Scheduled task manager" style={{display: 'none'}}>
