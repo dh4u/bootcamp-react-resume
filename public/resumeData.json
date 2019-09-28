@@ -66,15 +66,14 @@
 			},
 			{
 				"company": "Agency Q",
-				"title": "Freelance Web Developer",
-				"years": "February 2019 - Present",
-				"description": "Working with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "
-			},
-			{
-				"company": "Agency Q",
-				"title": "Freelance Web Developer",
-				"years": "November 2006 - 2013",
-				"description": "Developed and maintained software for clients of the company."
+				"tenure": [
+					{"title": "Freelance Web Developer",
+					"years": "February 2019 - Present",
+					"description": "Working with content and marketing team as a HubSpot CMS developer. Creating new, responsive modules for Agency Q's websites. Staging new modules for client approval prior to moving the module to production. New modules include featured blog posts, client testimonials, and an image rotator that gets its data from HubDB database queries. "},
+					{"title": "Freelance Web Developer",
+					"years": "November 2006 - 2013",
+					"description": "Developed and maintained software for clients of the company."}
+				]
 			}
 		],
 		"work": [
@@ -227,10 +226,10 @@
 					"assignment": "<p>Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.</p>",
 					"solution": "<p>Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.</p><p>Used help from <a href='https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669' className='col s5' rel='noopener noreferrer' target='_blank'>Build a Login/Auth App with the MERN Stack</a> and <a href='https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2' className='col s5' rel='noopener noreferrer' target='_blank'>How to take advantage of Local Storage in your React projects</a> for authentication and session management.</p>",
 					"features": [
-						{"feature": "To-do list"},
 						{"feature": "RESTful API"},
-						{"feature": "Local Storage for authentication and session mgmt"},
-						{"feature": "Database"}
+						{"feature": "Database storage"},
+						{"feature": "Authentication (local storage)"},
+						{"feature": "Session Mgmt (local storage)"}
 					],
 					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS), React Bootstrap, and React Simple Storage"
 				},

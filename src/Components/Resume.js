@@ -9,11 +9,17 @@ class Resume extends Component {
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p></div>
       })
-      var freelance = this.props.data.freelance.map(function(freelance){
-        return <div key={freelance.company}><h3>{freelance.company}</h3>
-            <p className="info">{freelance.title}<span>&bull;</span> <em className="date">{freelance.years}</em></p>
-            <p>{freelance.description}</p>
-        </div>
+      var freelance = ""
+      this.props.data.freelance.forEach( (gig, index) => {
+        freelance += `<div key=${gig.company}><h3>${gig.company}</h3>` 
+        gig.tenure ?
+            gig.tenure.forEach((time, index) =>{
+              freelance += `<div><p className="info">${time.title}<span>&bull;</span> <em className="date">${time.years}</em></p>
+              <p>${time.description}</p></div>`
+            })
+        : 
+          freelance += `<div><p className="info">${gig.title}<span>&bull;</span> <em className="date">${gig.years}</em></p>
+        <p>${gig.description}</p></div>`
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
@@ -22,9 +28,9 @@ class Resume extends Component {
         </div>
 	  })
 	  var skills = ""
-      this.props.data.skills.skillGroup.map(function(skillGroup){
+      this.props.data.skills.skillGroup.forEach(function(skillGroup){
 			skills += `<h3>${skillGroup.name.toString()}</h3><hr style="padding-bottom: 20px" /><ul className="skills">`
-			skillGroup.skill.map(function(skill){
+			skillGroup.skill.forEach(function(skill){
 				var className = `bar-expand ${skill.name.toLowerCase()}`
 				skills += `<li key="${skill.name}"><span style="width:${skill.level}" class="${className}"></span><em>${skill.name}</em></li>`
 			})
@@ -56,9 +62,7 @@ class Resume extends Component {
             <h1><span>Freelance</span></h1>
          </div>
 
-         <div className="nine columns main-col">
-          {freelance}
-        </div>
+         <div className="nine columns main-col" dangerouslySetInnerHTML={{ __html: freelance}} />
     </div>
 
 
