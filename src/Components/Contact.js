@@ -39,7 +39,7 @@ class Contact extends Component {
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span><br />
-                     <a href="mailto:scott.harvey@outlook.com">scott.harvey@outlook.com</a>
+                     <a href={`mailto:${email}`}>scott.harvey@outlook.com</a>
 					   </p>
 				   </div>
 
