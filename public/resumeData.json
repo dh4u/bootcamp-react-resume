@@ -219,16 +219,6 @@
 		"portfolio": {
 			"bootcampProjects": [
 				{
-					"title": "To-do List v1",
-					"overlayText": "A ReactJS to-do list.",
-					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png",
-					"demo": "",
-					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
-					"assignment": "<p>Learn ReactJS events.</p>",
-					"solution": "<p>Used create-react-app to bootstrap a ReactJS to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists.</p>",
-					"technology": "ReactJS and React Bootstrap"
-				},
-				{
 					"title": "To-do List v2 (with Login)",
 					"overlayText": "The ReactJS app 'To-Do v1' with an RESTful ExpressJS API back-end. Express uses Mongoose to interface with MongoDB in order to save to-do items.",
 					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png",
@@ -236,6 +226,12 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
 					"assignment": "<p>Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.</p>",
 					"solution": "<p>Added an ExpressJS back-end to <strong>To-Do v1</strong>. Express serves as an RESTful API and it uses Mongoose to interface with MongoDB in order to save to-do items.</p><p>Used help from <a href='https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669' className='col s5' rel='noopener noreferrer' target='_blank'>Build a Login/Auth App with the MERN Stack</a> and <a href='https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2' className='col s5' rel='noopener noreferrer' target='_blank'>How to take advantage of Local Storage in your React projects</a> for authentication and session management.</p>",
+					"features": [
+						{"feature": "To-do list"},
+						{"feature": "RESTful API"},
+						{"feature": "Local Storage for authentication and session mgmt"},
+						{"feature": "Database"}
+					],
 					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS), React Bootstrap, and React Simple Storage"
 				},
 				{
@@ -246,6 +242,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-cars",
 					"assignment": "<p>Create a full stack web application that uses a MongoDB collection to store a collection about cars in an inventory. Create the back-end of the application using Express and the front-end using React.</p>",
 					"solution": "<p>Used Express to build an RESTful API that serves as the back-end for a React front-end that is a simplified version of an inventory tracker for an automobile dealership. The API uses Mongoose to interface with MongoDB in order to save cars to the inventory. The React front-end was bootstrapped using create-react-app.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "MERN (MongoDB (Mongoose), ExpressJS, ReactJS, NodeJS)and React Bootstrap"
 				},
 				{
@@ -256,6 +255,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-currency-converter-and-monte-game",
 					"assignment": "<p>Create an app that allows the user to choose between a currency converter and a Three-card Monte game.</p><p>Converter: The user should be able to enter a number of dollars, which the app calculates and displays in Rands, Pounds, and Euros. Components displaying converted values should be children of the conversion component.</p><p>Game: The user should be shown 3 ‘Cards’. When clicked, they 'turn' to reveal a won or lost message. The player can then ‘Try again’ or ‘Quit’. The winning card should be different each time.</p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS app. Exchange rates are fetched from https://apilayer.com/. The game fulfills requirements and notes winning or losing streaks.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
@@ -266,6 +268,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-current-weather",
 					"assignment": "<p>Create a ReactJS app that will display the weather in a city of the user’s choice. The user should be able to enter or select the name of the city that they would like to see the weather for. The app should get the weather by fetching the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a></p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS app that displays the current weather in the city of the user's choice by fetching it from the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a>.</p><p>The app adds the user's previous choices to a selector that triggers a fresh API call to the <a href='https://openweathermap.org/current'>OpenWeatherMap API</a>.</p><p>In order to improve on the assigned project I also used the <a href='https://developers.google.com/maps/documentation/javascript/get-api-key'>Google Maps API</a> to fetch and auto-suggest names of cities as the user types.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
@@ -276,6 +281,22 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-connect-four",
 					"assignment": "<p>Create a simple game (other than Tic-Tac-Toe) using React.</p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS game of <em>Connect Four</em>.</p>",
+					"features": [
+						{"feature": ""}
+					],
+					"technology": "ReactJS and React Bootstrap"
+				},
+				{
+					"title": "To-do List v1",
+					"overlayText": "A ReactJS to-do list.",
+					"image": "/images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png",
+					"demo": "",
+					"GitHub": "https://github.com/dh4u/bootcamp-to-do/tree/v2",
+					"assignment": "<p>Learn ReactJS events.</p>",
+					"solution": "<p>Used create-react-app to bootstrap a ReactJS to-do list that allows the user to add / delete items from a list and has admin users that can see other users' lists.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
@@ -286,6 +307,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-star-wars",
 					"assignment": "<p>Use NextJS to build a dynamic website that uses data retrieved from an API.</p>",
 					"solution": "<p>Used NextJS to fetch data from the <a href='https://swapi.co'>Star Wars API</a> and ReactJS to create a list / drilldown style app. The app displays 5 random character names that drill down to character details.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "NextJS and ReactJS"
 				},
 				{
@@ -296,6 +320,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-calculator",
 					"assignment": "<p>Learn ReactJS events.</p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS calculator.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "ReactJS and React Bootstrap"
 				},
 				{
@@ -306,6 +333,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v2",
 					"assignment": "<p>Make an online store with a functional shopping cart and a checkout process that can accept a discount code.</p>",
 					"solution": "<p>Used a previous project for an online guitar store and added a functional shopping cart that meets the requirements.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "sessionStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript."
 				},
 				{
@@ -316,6 +346,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-guitar-store/tree/v3",
 					"assignment": "<p>Learn ReactJS events.</p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS guitar store.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "localStorage for shopping cart persistence, ReactJS, React Bootstrap, jQuery, and jQueryUI"
 				},
 				{
@@ -326,6 +359,9 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-restaurant-POS",
 					"assignment": "<p>Create an ordering system that would be used by wait staff to submit orders to the bar and kitchen.</p>",
 					"solution": "<p>Used create-react-app to bootstrap a ReactJS ordering system.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "Bootstrap 4, HTML, and JavaScript."
 				},
 				{
@@ -336,17 +372,23 @@
 					"GitHub": "https://github.com/dh4u/bootcamp-cars/tree/v1",
 					"assignment": "<p>Learn object-oriented programming.</p>",
 					"solution": "<p>A simple page that shows various car models and shows the description of the car when clicked.</p>",
+					"features": [
+						{"feature": ""}
+					],
 					"technology": "Bootstrap 4, HTML, and JavaScript."
 				}
 			],
 			"paidProjects": [
 				{
-					"title": "CLR - The Eye",
-					"image": "/images/portfolio/thumbnails/bootcamp-cars.v1.thumbnail.png",
+					"title": "",
+					"image": "",
 					"demo": "",
 					"GitHub": "",
-					"description": "This project was for the Full Stack Developer bootcamp I did. The assignment was to designed to teach object-oriented programming.<br />My solution is a simple page that shows various car models and shows the description of the car when clicked.",
-					"technology": "ColdFusion, MS SQL Server, HTML, and JavaScript."
+					"description": "",
+					"features": [
+						{}
+					],
+					"technology": ""
 				}
 			]
 		},
