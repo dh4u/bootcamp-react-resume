@@ -261,6 +261,7 @@
 						{"feature": "Uses RESTful API"},
 						{"feature": "Custom feedback for winning / losing streaks"},
 						{"feature": "Bootstrap-React Animation"},
+						{"feature": "Routing"},
 						{"feature": "State Management"},
 						{"feature": "Events"}
 					],
