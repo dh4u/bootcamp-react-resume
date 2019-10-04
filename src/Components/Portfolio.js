@@ -49,7 +49,7 @@ class Portfolio extends Component {
 							{project.technology !== "" 
 								?
 								(
-									<p><strong>Concepts/Technologies</strong><br />{project.technology}</p>
+									<p><strong>Concepts / Technologies</strong><br />{project.technology}</p>
 								)
 								:
 								("")
