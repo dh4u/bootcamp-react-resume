@@ -129,7 +129,7 @@
 					"skill": [
 						{
 							"name": "ColdFusion",
-							"level": "90%"
+							"level": "100%"
 						},
 						{
 							"name": "PHP",
@@ -146,7 +146,7 @@
 						},
 						{
 							"name": "MS SQL Server",
-							"level": "85%"
+							"level": "95%"
 						},
 						{
 							"name": "Oracle",
@@ -159,7 +159,7 @@
 					"skill": [
 						{
 							"name": "HTML",
-							"level": "85%"
+							"level": "95%"
 						},
 						{
 							"name": "CSS",
@@ -180,11 +180,11 @@
 						},
 						{
 							"name": "GitHub",
-							"level": "70%"
+							"level": "80%"
 						},
 						{
 							"name": "Subversion",
-							"level": "85%"
+							"level": "90%"
 						},
 						{
 							"name": "Bamboo",
