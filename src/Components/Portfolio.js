@@ -141,7 +141,7 @@ class Portfolio extends Component {
 							{/* <div className="row">{paidProjects}</div> */}
 							<br />
 							<h2>Bootcamp Projects</h2>
-							Click to view a demo or go to the source at Github
+							Click to view a demo at Heroku (demos may take up to 60 seconds to spin up) or go to the source at Github
 							<hr />
 							<div style={{display: 'flex', flexWrap: 'wrap'}}>{bootcampProjects}</div>
 						</div>
