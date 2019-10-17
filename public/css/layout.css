@@ -46,7 +46,7 @@ header:after{
    background-size: cover !important;
 
    content: "";
-  opacity: 0.3;
+  opacity: 0.4;
   top: 0;
   left: 0;
   bottom: 0;
@@ -236,6 +236,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 500px;
    border-radius: 10%;
+   opacity: .8;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
