@@ -1,8 +1,8 @@
-# React JS Resume Web App
+# React Resume Web App
 
 This project was for the Full Stack Developer bootcamp I did.
 
-![ReactJS Resume Website Template](/public/images/portfolio/resume-website.jpg?raw=true "ReactJS Resume Website Template")
+![React Resume Website Template](/public/images/portfolio/resume-website.jpg?raw=true "React Resume Website Template")
 
 ## The Assignment
 
@@ -10,6 +10,6 @@ This project was for the Full Stack Developer bootcamp I did.
 an online CV typically looks like, have a look at [this example](https://jonbloomer.com.au).
 
 ## The Solution
-My solution is a [ReactJS based personal resume website](https://dh4u-bootcamp-react-resume.herokuapp.com/) forked from Tim Baker's [template](https://github.com/tbakerx/react-resume-template). 
+My solution is a [React based personal resume website](https://dh4u-bootcamp-react-resume.herokuapp.com/) forked from Tim Baker's [template](https://github.com/tbakerx/react-resume-template). 
 
 ### <a href="https://dh4u-bootcamp-react-resume.herokuapp.com/">LIVE DEMO</a> 
