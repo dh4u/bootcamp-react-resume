@@ -2,7 +2,7 @@
 	"main": {
 		"name": "Scott Harvey",
 		"occupation": "Software Engineer",
-		"description": "I have over 15 years of experience with web development technologies such as JavaScript, Adobe ColdFusion, MS SQL Server, Oracle, HTML, and CSS. I am looking to apply these skills in a Full Stack Developer position working with the MERN stack (MongoDB, Express.js, React.js, Node.js). I have been learning this stack over the last six months and will complete the Full Stack Developer boot camp at <a href='https://www.hyperiondev.com' target='_blank'><span style='font-weight: bold'>Hyperion Dev</span></a> in September 2019.",
+		"description": "I have over 15 years of experience with web development technologies such as JavaScript, Adobe ColdFusion, MS SQL Server, Oracle, HTML, and CSS. I am looking to apply these skills in a Full Stack Developer position working with the MERN stack (MongoDB, Express.js, React.js, Node.js). I have been learning this stack over the last six months and will complete the Full Stack Developer boot camp at <a href='https://www.hyperiondev.com' target='_blank'><span style='font-weight: bold'>Hyperion Dev</span></a> in November 2019.",
 		"image1": "profilepic.nepal.2.jpg",
 		"image2": "profilepic.png",
 		"bio": "<p>I'm dry-humored and probably the most social introvert you will meet. I enjoy traveling and feel fortunate to have traveled to 30 countries on 6 continents. I enjoy interacting with people from diverse backgrounds and find it fascinating to see and learn things from other perspectives. </p><p>As a <strong>software engineer</strong>, I learned <strong>object-oriented programming</strong> and other software skills while developing <strong>ColdFusion</strong> applications. While I am very comfortable with ColdFusion, I wanted to add more modern technologies to my skillset. So, I have been working towards a <strong>Full Stack Developer</strong> certification using the <strong>MERN</strong> stack for the last 9 months. It is nice to have more tools in my toolbox, and I look forward to more opportunities to use these skills. While my bootcamp projects cover the full MERN stack, I have most enjoyed developing <strong>RESTful APIs</strong> using <strong>Node.js, Express,</strong> and <strong>MongoDB</strong>. I have also been updating my front end development skills by adding <strong>React, Bootstrap,</strong> and <strong>responsive CSS</strong> to my repertoire.</p><p>Professionally, I most value a sense of ownership and working on projects that make a difference. The position that I recall most fondly was at CLR where I built an intranet from the ground up. I felt great pride in automating CLR's processes by developing software that fostered communication between employees and made work easier for them.</p><p>I believe that if you are not challenged, you will not grow. I enjoy a challenge, and I welcome the opportunity to help solve <em>your</em> challenges.</p>",
@@ -30,7 +30,7 @@
 			{
 				"school": "Hyperion Dev",
 				"degree": "Full Stack Web Developer Certificate",
-				"graduated": "March - September 2019",
+				"graduated": "March - November 2019",
 				"description": "Comprehensive full stack web development course. Learned to build dynamic, data-driven web applications in the MERN stack. Got a refresher on HTML, CSS, and JavaScript. Learned Bootstrap 4, newer JavaScript (ES6), Node.js, MongoDB, Express, and React."
 			},
 			{
