@@ -34,7 +34,7 @@ class About extends Component {
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span style={{'white-space': 'nowrap'}}>{street}<br />
+						   <span style={{'whiteSpace': 'nowrap'}}>{street}<br />
 						         {city} {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
