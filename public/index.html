@@ -16,6 +16,29 @@
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
 
+    <!-- make sure Heroku apps are spun up by fetching them -->
+    <script type="text/javascript">
+      var herokuPing = (async () => {
+        var response = fetch('https://dh4u-bootcamp-current-weather.herokuapp.com', {
+            method: 'GET',
+            mode: 'no-cors'
+        });
+        await response;
+        response = fetch('https://dh4u-bootcamp-connect-four.herokuapp.com', {
+            method: 'GET',
+            mode: 'no-cors'
+        });
+        await response;
+        response = fetch('https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com', {
+            method: 'GET',
+            mode: 'no-cors'
+        });
+        await response;
+      })();
+      
+      setInterval(herokuPing, 3600);
+    </script>
+
 
     <title>Scott Harvey - Full Stack Developer</title>
   </head>
