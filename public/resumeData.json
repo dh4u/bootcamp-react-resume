@@ -248,7 +248,7 @@
 						{"feature": "List / Drilldown interface"},
 						{"feature": "Bulk Editing"}
 					],
-					"technology": "MERN (MongoDB (Mongoose), Express, React, NodeJS)and React Bootstrap"
+					"technology": "MERN (MongoDB (Mongoose), Express, React, NodeJS) and React Bootstrap"
 				},
 				{
 					"title": "Currency Converter / Three Card Monte",
