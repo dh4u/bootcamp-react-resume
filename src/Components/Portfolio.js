@@ -21,12 +21,12 @@ class Portfolio extends Component {
 						boxSizing: 'border-box'}}>
 						<div className="item-wrap">
 							<figure style={{ maxWidth: 'col-3' }}>
-								<a href={theURL} title={project.title} target="_blank">
+								<a href={theURL} title={project.title} target="_blank" rel="noopener noreferrer">
 									<img alt={project.title} src={process.env.PUBLIC_URL + projectImage} />
 								</a>
 							</figure>
 							<div className="overlay">
-							<a href={theURL} title={project.title} target="_blank" style={{marginTop: '-20px'}}>
+							<a href={theURL} title={project.title} target="_blank" rel="noopener noreferrer" style={{marginTop: '-20px'}}>
 								<div className="portfolio-item-meta">
 									<h5>{project.title}</h5>
 									<p dangerouslySetInnerHTML={ {__html: project.overlayText}} />
@@ -38,11 +38,11 @@ class Portfolio extends Component {
 							<h5>
 								{project.title}<br />
 								&nbsp;&nbsp;
-								<a href={project.GitHub} alt="GitHub repository" target="_blank">
+								<a href={project.GitHub} alt="GitHub repository" target="_blank" rel="noopener noreferrer">
 									<i className="fab fa-github"></i>
 								</a>&nbsp;&nbsp;
 								{project.demo !== ""
-								?(<a href={project.demo} alt="Demo it" target="_blank"><i className="fas fa-external-link-alt"></i></a>)
+								?(<a href={project.demo} alt="Demo it" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt"></i></a>)
 								:("")
 								}
 							</h5>
