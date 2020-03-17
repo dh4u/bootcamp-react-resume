@@ -63,13 +63,15 @@
 				"company": "Agency Q",
 				"title": "Freelance Web Developer",
 				"years": "2019 - Present",
-				"description": "Developing responsive front-end JavaScript / HTML / CSS modules in HubSpotCMS for the agencyQ website. Staging new modules for approval by the agencyQ content and marketing team prior to moving the staged modules to production. New modules include featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database, and more.<br /><br />JavaScript | HTML | CSS | HubSpot CMS"
+				"technologies": "JavaScript | HTML | CSS | HubSpot CMS",
+				"description": "Developing responsive front-end JavaScript / HTML / CSS modules in HubSpotCMS for the agencyQ website. Staging new modules for approval by the agencyQ content and marketing team prior to moving the staged modules to production. New modules include featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database, and more.<br /><br />"
 			},
 			{
 				"company": "Noble Technologies, Inc",
 				"title": "Freelance Database Developer",
 				"years": "2019 - Present",
-				"description": "Performing routine data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />MS SQL Server"
+				"technologies": "MS SQL Server",
+				"description": "Performing routine data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />"
 			}
 		],
 		"work": [
@@ -77,19 +79,22 @@
 				"company": "Association of American Medical Colleges",
 				"title": "Senior Software Engineer",
 				"years": "2016 - 2018",
-				"description": "<p>Providing software design, coding, testing, implementation, documentation, and maintenance on a team of 2 developers, a business analyst, a quality assurance specialist, and a project manager. Performing data analysis, research, and ad hoc reporting according to client needs.</p><p>JavaScript | HTML | CSS | ColdFusion | Oracle<br /></p>"
+				"technologies": "JavaScript | HTML | CSS | ColdFusion | Oracle",
+				"description": "<p>Providing software design, coding, testing, implementation, documentation, and maintenance on a team of 2 developers, a business analyst, a quality assurance specialist, and a project manager. Performing data analysis, research, and ad hoc reporting according to client needs.</p>"
 			},
 			{
 				"company": "Solution Technology Systems, Inc",
 				"title": "Senior Software Developer",
 				"years": "2015 - 2016",
-				"description": "<p>Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager. Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p><p>JavaScript | HTML | CSS | ColdFusion | Oracle</p>"
+				"technologies": "JavaScript | HTML | CSS | ColdFusion | Oracle",
+				"description": "<p>Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager. Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p>"
 			},
 			{
 				"company": "Council for Logistics Research",
 				"title": "Senior Web Developer",
 				"years": "2003 - 2014",
-				"description": "<p>Developing and maintaining software for CLR and its clients including the US Air Force. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating processes such as time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p><p>JavaScript | HTML | CSS | ColdFusion | MS SQL Server<br /></p>"
+				"technologies": "JavaScript | HTML | CSS | ColdFusion | MS SQL Server",
+				"description": "<p>Developing and maintaining software for CLR and its clients including the US Air Force. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating various processes including time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p>"
 			}
 		],
 		"skills": {

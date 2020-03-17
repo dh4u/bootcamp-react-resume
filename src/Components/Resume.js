@@ -15,16 +15,16 @@ class Resume extends Component {
         gig.tenure ?
             gig.tenure.forEach((time, index) =>{
               freelance += `<div><p class="info">${time.title}<span>&bull;</span> <em class="date">${time.years}</em></p>
-              <p>${time.description}</p></div>`
+              <p>${time.technologies}<br />${time.description}</p></div>`
             })
         : 
           freelance += `<div><p class="info">${gig.title}<span>&bull;</span> <em class="date">${gig.years}</em></p>
-        <p>${gig.description}</p></div>`
+          <p>${gig.technologies}<br />${gig.description}</p></div>`
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <div dangerouslySetInnerHTML={{__html: work.description}} />
+            <div dangerouslySetInnerHTML={{__html: work.technologies + work.description}} />
             <br />
         </div>
 	  })
