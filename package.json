@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "serve -s build",
-    "build": "react-scripts build",
+    "build": "serve -s build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
