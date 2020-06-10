@@ -60,6 +60,13 @@
 		],
 		"freelance": [
 			{
+				"company": "Autonomy Coop",
+				"title": "Freelance Web Developer",
+				"years": "2020 - Present",
+				"technologies": "JavaScript (Vanilla / Nuxt) | HTML | CSS ",
+				"description": "Developing and maintaining responsive front-end web pages and marketing emails for a commercial client. Performing full stack development and maintenance for a non-profit client.<br /><br />"
+			},
+			{
 				"company": "Agency Q",
 				"title": "Freelance Web Developer",
 				"years": "2019 - Present",
