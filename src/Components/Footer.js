@@ -9,7 +9,7 @@ class Footer extends Component {
       })
     }
 
-    const d = new Date;
+    const d = new Date();
     const copyrightYear = d.getFullYear();
 
     return (
@@ -24,7 +24,7 @@ class Footer extends Component {
            <ul className="copyright">
               <li>&copy; Copyright {copyrightYear} Scott Harvey</li>
               <li></li>
-              <li style={{fontSize: 'smaller'}}>This resume is a fork of Tim Baker's ReactJs template - <a href="https://github.com/tbakerx/react-resume-template" target="_blank">https://github.com/tbakerx/react-resume-template</a>&nbsp;&nbsp;Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>
+              <li style={{fontSize: 'smaller'}}>This resume is a fork of Tim Baker's ReactJs template - <a href="https://github.com/tbakerx/react-resume-template" target="_blank" rel="noopener noreferrer">https://github.com/tbakerx/react-resume-template</a>&nbsp;&nbsp;Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank" rel="noopener noreferrer">Styleshout</a></li>
            </ul>
 
         </div>
