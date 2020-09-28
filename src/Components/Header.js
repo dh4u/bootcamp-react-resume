@@ -37,7 +37,8 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3 style={{whiteSpace: "pre-wrap", color: "#fff"}}>I'm a <span style={{fontWeight: "bold"}}>{occupation}</span> based in {city}, {state}.
+            <h3 style={{whiteSpace: "pre-wrap", color: "#fff"}}><span style={{fontWeight: "bold"}}>{occupation}</span> in {city}, {state}
+            <br /><br />
             <div dangerouslySetInnerHTML={description} />
             </h3>
             <hr />
