@@ -2,16 +2,16 @@
 	"main": {
 		"name": "Scott Harvey",
 		"occupation": "Software Engineer",
-		"description": "I have over 15 years of experience in object-oriented full stack web development. I am most skilled in middleware / backend technologies - Adobe ColdFusion and PHP; Apache and IIS; ExpressJS and NodeJS; MongoDB, MS SQL Server, and Oracle as well as Windows Server. I am also very skilled in front end development - HTML, JavaScript (Vanilla / jQuery / ReactJS), and CSS (Vanilla / Bootstrap).<br /><br />I want to apply my breadth of experience to a <span style='font-weight: bold;'>Software Engineer</span> / <span style='font-weight: bold;'>Full Stack Developer</span> position working with open source frameworks / tools such as the MERN stack (MongoDB, Express, React, Node.js). My background makes me uniquely suited for Full Stack JavaScript Developer positions, especially those tasked with modernizing ColdFusion applications.",
+	"description": "<p>I am an experienced object-oriented full stack developer who is comfortable in JavaScript in its many forms, including Vanilla, Node (ExpressJS), and React (NextJS). My sweet spot is in middleware / backend technologies, specifically the integration of JavaScript, HTML, and CSS with databases (MongoDB, MS SQL Server, MySQL, Oracle), web servers (Apache and IIS), and scripting languages like ColdFusion and PHP.<br /><br />Looking for a position where I can continue learning and apply my skills to help achieve the mission of an organization I care about.</p>",
 		"image1": "profilepic.nepal.2.jpg",
 		"image2": "profilepic.png",
-		"bio": "<p>Outside of work I am very social and value spending time with friends, cooking, and traveling with my partner. I feel very fortunate to have traveled to about 30 countries on 6 continents. I enjoy interacting with people from diverse backgrounds and find it fascinating to see and learn things from other perspectives.<br /><p>The majority of my experience has been doing full stack development with HTML, CSS, JavaScript (Vanilla and jQuery), Adobe ColdFusion, and MS SQL Server or Oracle. I wanted to add more modern technologies to my skillset so this past year I have been working towards a <strong>Full Stack Developer</strong> certification using the <strong>MERN</strong> stack. It is nice to have more tools in my toolbox, and I look forward to more opportunities to use these skills. While my bootcamp projects cover the full MERN stack, I have most enjoyed developing <strong>RESTful APIs</strong> using <strong>Node.js, Express,</strong> and <strong>MongoDB</strong> and I'm excited to build RESTful APIs using the new routing features in NextJS. I have also strengthened my front end development skills by adding <strong>React, Bootstrap,</strong> and <strong>responsive CSS</strong> to my repertoire.</p><p>Professionally, I most value a sense of ownership and working on projects that make a difference. The position that I recall most fondly was at CLR where I built an intranet from the ground up. I felt great pride each time a coworker told me how much time and / or work it saved them when I automated a process. Lastly, like a lot of developers / engineers, the times at work that I appreciate most are when I get to put my head down and write code.</p><p>I’m currently freelancing on two projects where I’m applying my skills in database development, JavaScript, and CSS. I am actively looking for a full time position where I can grow in a solid team environment. </p>",
+		"bio": "<p>Outside of work I value spending time with friends, cooking, and traveling with my partner. I feel very fortunate to have traveled to about 30 countries on 6 continents! <br /><p>Professionally, I value a sense of ownership and working on projects that make a difference. The position that I recall most fondly was at CLR where I built an intranet from the ground up, automating many time-consuming processes. I felt great pride each time a coworker told me how much time and work these automations saved them. And, like a lot of developers, I also appreciate times when I can put my head down and write code.</p><p>Technology changes rapidly, so I strive to keep learning. In early 2020, I completed a <strong>Full Stack Developer</strong> certification using the <strong>MERN</strong> stack to update my skills and stay competitive. In the bootcamp, I most enjoyed developing <strong>RESTful APIs</strong> using <strong>Node.js, Express,</strong> and <strong>MongoDB</strong> and  strengthening my front end development skills by adding <strong>React, Bootstrap,</strong> and <strong>responsive CSS</strong> to my repertoire.</p><p>I’m currently freelancing for agencies  on various projects, but I am actively looking for a full time position where I can keep learning and dedicate my time to an organization I care about.</p>",
 		"contactmessage": "If you like what you see, please get in touch!<br />I'd love to hear about opportunities for freelance work, partnership, or employment.",
 		"email": "scott.harvey@outlook.com",
 		"phone": "202-744-5379",
 		"address": {
 			"street": "Software Engineer / Full Stack Developer",
-			"city": "Shaw - Washington",
+			"city": "Washington",
 			"state": "DC",
 			"zip": "20001"
 		},
@@ -30,7 +30,7 @@
 			{
 				"school": "Hyperion Dev",
 				"degree": "Full Stack Web Developer Certificate",
-				"graduated": "March - December 2019",
+				"graduated": "July 2020",
 				"description": "Comprehensive full stack web development course. Learned to build dynamic, data-driven web applications in the MERN stack. Got a refresher on HTML, CSS, and JavaScript. Learned Bootstrap 4, newer JavaScript (ES6), Node.js, MongoDB, Express, and React."
 			},
 			{
@@ -63,22 +63,22 @@
 				"company": "Autonomy Coop",
 				"title": "Freelance Web Developer",
 				"years": "2020 - Present",
-				"technologies": "JavaScript (Vanilla / Nuxt) | HTML | CSS ",
-				"description": "Developing and maintaining responsive front-end web pages and marketing emails for a commercial client. Performing full stack development and maintenance for a non-profit client.<br /><br />"
-			},
-			{
-				"company": "Agency Q",
-				"title": "Freelance Web Developer",
-				"years": "2019 - Present",
-				"technologies": "JavaScript | HTML | CSS | HubSpot CMS",
-				"description": "Developing responsive front-end JavaScript / HTML / CSS modules in HubSpotCMS for the agencyQ website. Staging new modules for approval by the agencyQ content and marketing team prior to moving the staged modules to production. New modules include featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database, and more.<br /><br />"
+				"technologies": "JavaScript (Vanilla, Nuxt, Vue) | HTML | CSS ",
+				"description": "<a href='https://www.crankyuncle.com' target='_blank'>Cranky Uncle mobile app</a> - Front end development in VueJS, HTML, and CSS <br /><a href='https://rogueorigin.com/' target='_blank'>Rogue Origin</a> - Developing and maintaining responsive front-end web pages and marketing emails <br /><a href='https://www.socialsolutions.biz/' target='_blank'>Social Solutions</a> - Website development and maintenance<br /><br />"
 			},
 			{
 				"company": "Noble Technologies, Inc",
 				"title": "Freelance Database Developer",
 				"years": "2019 - Present",
 				"technologies": "MS SQL Server",
-				"description": "Performing routine data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />"
+				"description": "<a href='https://www.workersrights.org/' target='_blank'>Workers Rights Consortium</a> - Performing data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />"
+			},
+			{
+				"company": "Agency Q",
+				"title": "Freelance Web Developer",
+				"years": "2019 - 2020",
+				"technologies": "JavaScript | HTML | CSS | HubSpot CMS",
+				"description": "<a href='https://www.agencyq.com/' target='_blank'>Agency Q Website</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpotCMS, including featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database. <br /><br />"
 			}
 		],
 		"work": [
@@ -87,21 +87,21 @@
 				"title": "Senior Software Engineer",
 				"years": "2016 - 2018",
 				"technologies": "JavaScript | HTML | CSS | ColdFusion | Oracle",
-				"description": "<p>Providing software design, coding, testing, implementation, documentation, and maintenance on a team of 2 developers, a business analyst, a quality assurance specialist, and a project manager. Performing data analysis, research, and ad hoc reporting according to client needs.</p>"
+				"description": "<p>- Providing software design, coding, testing, implementation, documentation, and maintenance on a team of 2 developers, a business analyst, a quality assurance specialist, and a project manager. <br />- Performing data analysis, research, and ad hoc reporting according to client needs.</p>"
 			},
 			{
 				"company": "Solution Technology Systems, Inc",
 				"title": "Senior Software Developer",
 				"years": "2015 - 2016",
 				"technologies": "JavaScript | HTML | CSS | ColdFusion | Oracle",
-				"description": "<p>Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager. Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p>"
+				"description": "<p><a href='https://www.epa.gov/'  target='_blank'>Environmental Protection Agency</a> - Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager.  Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p>"
 			},
 			{
 				"company": "Council for Logistics Research",
 				"title": "Senior Web Developer",
 				"years": "2003 - 2014",
 				"technologies": "JavaScript | HTML | CSS | ColdFusion | MS SQL Server",
-				"description": "<p>Developing and maintaining software for CLR and its clients including the US Air Force. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating various processes including time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p>"
+				"description": "<p>Developing and maintaining software for CLR and its clients including the <a href='https://www.af.mil/' target='_blank'>US Air Force</a>. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating various processes including time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p>"
 			}
 		],
 		"skills": {
