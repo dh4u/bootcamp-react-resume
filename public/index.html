@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/lightbox2/dist/css/lightbox.min.css" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/lightbox2/dist/css/lightbox.min.css" />
 
-    <script src="https://kit.fontawesome.com/a5667f3e25.js"></script>
-    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+  <script src="https://kit.fontawesome.com/a5667f3e25.js"></script>
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+    media="all">
 
-    <!-- make sure Heroku apps are spun up by fetching them -->
-    <script type="text/javascript">
-      var herokuPing = (async () => {
-        var response = fetch('https://dh4u-bootcamp-current-weather.herokuapp.com', {
-            method: 'GET',
-            mode: 'no-cors'
-        });
-        await response;
-        response = fetch('https://dh4u-bootcamp-connect-four.herokuapp.com', {
-            method: 'GET',
-            mode: 'no-cors'
-        });
-        await response;
-        response = fetch('https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com', {
-            method: 'GET',
-            mode: 'no-cors'
-        });
-        await response;
-      })();
-      
-      setInterval(herokuPing, 3600);
-    </script>
+  <!-- make sure Heroku apps are spun up by fetching them -->
+  <script type="text/javascript">
+    var herokuPing = (async () => {
+      var response = fetch('https://dh4u-bootcamp-current-weather.herokuapp.com', {
+        method: 'GET',
+        mode: 'no-cors'
+      });
+      await response;
+      response = fetch('https://dh4u-bootcamp-connect-four.herokuapp.com', {
+        method: 'GET',
+        mode: 'no-cors'
+      });
+      await response;
+      response = fetch('https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com', {
+        method: 'GET',
+        mode: 'no-cors'
+      });
+      await response;
+    })();
 
-
-    <title>Scott Harvey - Full Stack Developer</title>
-  </head>
-
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
+    setInterval(herokuPing, 3600);
+  </script>
 
 
+  <title>Scott Harvey - Software Engineer</title>
+</head>
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
 
-   <script src="%PUBLIC_URL%/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
-  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/magnific-popup.js"></script>
+  <script src="js/init.js"></script>
+
+  <script src="%PUBLIC_URL%/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
 </html>

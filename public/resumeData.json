@@ -2,15 +2,15 @@
 	"main": {
 		"name": "Scott Harvey",
 		"occupation": "Software Engineer",
-	"description": "<p>I am an experienced object-oriented full stack developer who is comfortable in JavaScript in its many forms, including Vanilla, Node (ExpressJS), and React (NextJS).<br /><br />My sweet spot is in middleware / backend technologies, specifically the integration of front end languages like HTML and CSS with JavaScript, databases (MongoDB, MS SQL Server, MySQL, Oracle), scripting languages (ColdFusion and PHP), and web servers (Apache and IIS).<br /><br />Looking for a position where I can continue learning and apply my skills to help achieve the mission of an organization I care about.</p>",
+	"description": "<p>I've spent most of my career creating ColdFusion applications, integrating JavaScript, HTML, and CSS front ends with databases such as MS SQL Server and Oracle.<br /><br />I certified as a full stack JavaScript developer in 2020, and I am comfortable with its many forms, including Vanilla, Node (ExpressJS), and React (NextJS).</p>",
 		"image1": "profilepic.nepal.2.jpg",
 		"image2": "profilepic.png",
 		"bio": "<p>Outside of work I value spending time with friends, cooking, and traveling with my partner. I feel very fortunate to have traveled to about 30 countries on 6 continents! <br /><p>Professionally, I value a sense of ownership and working on projects that make a difference. The position that I recall most fondly was at CLR where I built an intranet from the ground up, automating many time-consuming processes. I felt great pride each time a coworker told me how much time and work these automations saved them. And, like a lot of developers, I also appreciate times when I can put my head down and write code.</p><p>Technology changes rapidly, so I strive to keep learning. In early 2020, I completed a <strong>Full Stack Developer</strong> certification using the <strong>MERN</strong> stack to update my skills and stay competitive. In the bootcamp, I most enjoyed developing <strong>RESTful APIs</strong> using <strong>Node.js, Express,</strong> and <strong>MongoDB</strong> and  strengthening my front end development skills by adding <strong>React, Bootstrap,</strong> and <strong>responsive CSS</strong> to my repertoire. I've also recently learned <strong>Ruby,</strong> <strong>Jekyll,</strong> <strong>Liquid Templates,</strong> and the <a href='https://designsystem.digital.gov/' rel='noopener noreferrer' target='_blank'><strong>US Web Design System</strong></a>.</p><p>I am actively looking for a full time position where I can keep learning and dedicate my time to an organization I care about. I’m currently freelancing on various projects using NextJS, VueJS, MS SQL, HTML, and CSS.</p>",
-		"contactmessage": "If you like what you see, please get in touch!<br />I'd love to hear about opportunities for freelance work, partnership, or employment.",
+		"contactmessage": "If you like what you see, please get in touch!<br />I'd love to hear about opportunities for employment, freelance work, or partnership.",
 		"email": "scott.harvey@outlook.com",
 		"phone": "202-744-5379",
 		"address": {
-			"street": "Software Engineer / Full Stack Developer",
+			"street": "Software Engineer",
 			"city": "Washington",
 			"state": "DC",
 			"zip": "20001"
@@ -68,14 +68,14 @@
 			},
 			{
 				"company": "Autonomy Coop",
-				"title": "Freelance Web Developer",
+				"title": "Web Developer",
 				"years": "2020 - Present",
 				"technologies": "JavaScript (Vanilla, Nuxt, Vue) | HTML | CSS ",
 				"description": "<a href='https://www.crankyuncle.com' target='_blank' rel='noopener'>Cranky Uncle mobile app</a> - Front end development in VueJS, HTML, and CSS <br /><a href='https://rogueorigin.com/' target='_blank' rel='noopener'>Rogue Origin</a> - Developing and maintaining responsive front-end web pages and marketing emails <br /><a href='https://www.socialsolutions.biz/' target='_blank' rel='noopener'>Social Solutions</a> - Website development and maintenance<br /><br />"
 			},
 			{
 				"company": "Noble Technologies, Inc",
-				"title": "Freelance Database Developer",
+				"title": "Database Developer",
 				"years": "2019 - Present",
 				"technologies": "MS SQL Server",
 				"description": "<a href='https://www.workersrights.org/' target='_blank' rel='noopener'>Workers Rights Consortium</a> - Performing data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />"
@@ -83,9 +83,9 @@
 			{
 				"company": "Agency Q",
 				"title": "Freelance Web Developer",
-				"years": "2019 - 2020",
+				"years": "2019 - Present",
 				"technologies": "JavaScript | HTML | CSS | HubSpot CMS",
-				"description": "<a href='https://www.agencyq.com/' target='_blank' rel='noopener'>Agency Q Website</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpotCMS, including featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database. <br /><br />"
+				"description": "<a href='https://www.agencyq.com/' target='_blank' rel='noopener'>agencyQ.com</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpotCMS. <br />Developed and implemented HTML email templates in Salesforce Pardot."
 			}
 		],
 		"work": [
@@ -118,12 +118,12 @@
 					"name": "JavaScript",
 					"skill": [
 						{
-							"name": "Express",
-							"level": "65%"
+							"name": "Vanilla",
+							"level": "85%"
 						},
 						{
-							"name": "JSX",
-							"level": "75%"
+							"name": "React",
+							"level": "65%"
 						},
 						{
 							"name": "Next.js",
@@ -134,21 +134,21 @@
 							"level": "65%"
 						},
 						{
+							"name": "Express",
+							"level": "65%"
+						},
+						{
 							"name": "jQuery",
 							"level": "85%"
 						},
 						{
-							"name": "React",
-							"level": "65%"
-						},
-						{
-							"name": "Vanilla",
-							"level": "85%"
+							"name": "JSX",
+							"level": "75%"
 						}
 					]
 				},
 				{
-					"name": "Server-side Scripting",
+					"name": "Web Application Frameworks",
 					"skill": [
 						{
 							"name": "ColdFusion",
@@ -182,7 +182,7 @@
 					]
 				},
 				{
-					"name": "HTML / CSS / Design Tools",
+					"name": "HTML / CSS / Front End",
 					"skill": [
 						{
 							"name": "HTML",
@@ -194,10 +194,6 @@
 						},
 						{
 							"name": "Bootstrap",
-							"level": "75%"
-						},
-						{
-							"name": "Balsamiq",
 							"level": "75%"
 						}
 					]
@@ -241,7 +237,7 @@
 					]
 				},
 				{
-					"name": "Project / Content Management",
+					"name": "Project Management",
 					"skill": [
 						{
 							"name": "Jira",
@@ -254,6 +250,10 @@
 						{
 							"name": "Trello",
 							"level": "80%"
+						},
+						{
+							"name": "Asana",
+							"level": "65%"
 						}
 					]
 				}
