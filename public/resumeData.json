@@ -60,15 +60,22 @@
 		],
 		"freelance": [
 			{
+				"company": "Ethicode",
+				"title": "Software Engineer",
+				"years": "2020 - Present",
+				"technologies": "JavaScript (Vanilla, Next) | HTML | CSS ",
+				"description": "<a href='https://foodprintcalculator.com/' target='_blank' rel='noopener'>FOOD·E</a> - Full-stack development with NextJS and MongoDB<br /><a href='https://www.ethicode.org' target='_blank' rel='noopener'>Ethicode website</a> - Development and maintenance"
+			},
+			{
 				"company": "Autonomy Coop",
-				"title": "Freelance Web Developer",
+				"title": "Web Developer",
 				"years": "2020 - Present",
 				"technologies": "JavaScript (Vanilla, Nuxt, Vue) | HTML | CSS ",
-				"description": "<a href='https://www.crankyuncle.com' target='_blank'>Cranky Uncle mobile app</a> - Front end development in VueJS, HTML, and CSS <br /><a href='https://rogueorigin.com/' target='_blank'>Rogue Origin</a> - Developing and maintaining responsive front-end web pages and marketing emails <br /><a href='https://www.socialsolutions.biz/' target='_blank'>Social Solutions</a> - Website development and maintenance<br /><br />"
+				"description": "<a href='https://www.crankyuncle.com' target='_blank' rel='noopener'>Cranky Uncle mobile app</a> - Front end development in VueJS, HTML, and CSS <br /><a href='https://rogueorigin.com/' target='_blank' rel='noopener'>Rogue Origin</a> - Developing and maintaining responsive front-end web pages and marketing emails <br /><a href='https://www.socialsolutions.biz/' target='_blank' rel='noopener'>Social Solutions</a> - Website development and maintenance<br /><br />"
 			},
 			{
 				"company": "Noble Technologies, Inc",
-				"title": "Freelance Database Developer",
+				"title": "Database Developer",
 				"years": "2019 - Present",
 				"technologies": "MS SQL Server",
 				"description": "<a href='https://www.workersrights.org/' target='_blank'>Workers Rights Consortium</a> - Performing data management tasks using MS SQL, including database backups, data loads, data validation, and report writing. Assisting with database design and modeling, stored procedure writing, and interface support.<br /><br />"
@@ -76,9 +83,9 @@
 			{
 				"company": "Agency Q",
 				"title": "Freelance Web Developer",
-				"years": "2019 - 2020",
+				"years": "2019 - Present",
 				"technologies": "JavaScript | HTML | CSS | HubSpot CMS",
-				"description": "<a href='https://www.agencyq.com/' target='_blank'>Agency Q Website</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpotCMS, including featured blog posts, client testimonials, an image rotator that retrieves its data by querying the HubDB database. <br /><br />"
+				"description": "<a href='https://www.agencyq.com/' target='_blank' rel='noopener'>agencyQ.com</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpotCMS. <br />Developed and implemented HTML email templates in Salesforce Pardot."
 			}
 		],
 		"work": [
@@ -94,24 +101,24 @@
 				"title": "Senior Software Developer",
 				"years": "2015 - 2016",
 				"technologies": "JavaScript | HTML | CSS | ColdFusion | Oracle",
-				"description": "<p><a href='https://www.epa.gov/'  target='_blank'>Environmental Protection Agency</a> - Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager.  Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p>"
+				"description": "<p><a href='https://www.epa.gov/'  target='_blank' rel='noopener'>Environmental Protection Agency</a> - Providing software design, information architecture, coding, testing, implementation, documentation, and maintenance on a team of 3 developers, 6 analysts, and a project manager.  Analyzing, coding, testing, and deploying 40+ change requests to production code, using CMMI processes. Identifying business and technical solutions to enable the EPA to optimize business performance.</p>"
 			},
 			{
 				"company": "Council for Logistics Research",
 				"title": "Senior Web Developer",
 				"years": "2003 - 2014",
 				"technologies": "JavaScript | HTML | CSS | ColdFusion | MS SQL Server",
-				"description": "<p>Developing and maintaining software for CLR and its clients including the <a href='https://www.af.mil/' target='_blank'>US Air Force</a>. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating various processes including time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p>"
+				"description": "<p>Developing and maintaining software for CLR and its clients including the <a href='https://www.af.mil/' target='_blank' rel='noopener'>US Air Force</a>. Managing and mentoring junior developers in a small team. Establishing and maintaining best practices and coding standards for the team.</p><p>Galvanized CLR's enterprise resource planning capabilities by automating various processes including time keeping, purchase requisitions / expense reporting / reimbursement, performance reviews, and training requests.</p>"
 			}
 		],
 		"skills": {
 			"skillmessage": "Here are some of the skills I've picked up along the way:",
 			"skillGroup": [
 				{
-					"name": "JavaScript / JavaScript Frameworks",
+					"name": "JavaScript",
 					"skill": [
 						{
-							"name": "Vanilla JavaScript",
+							"name": "Vanilla",
 							"level": "85%"
 						},
 						{
@@ -119,21 +126,29 @@
 							"level": "65%"
 						},
 						{
-							"name": "JSX",
-							"level": "75%"
+							"name": "Next.js",
+							"level": "65%"
 						},
 						{
-							"name": "Node",
+							"name": "Node.js",
+							"level": "65%"
+						},
+						{
+							"name": "Express",
 							"level": "65%"
 						},
 						{
 							"name": "jQuery",
 							"level": "85%"
+						},
+						{
+							"name": "JSX",
+							"level": "75%"
 						}
 					]
 				},
 				{
-					"name": "Server-side Scripting",
+					"name": "Web Application Frameworks",
 					"skill": [
 						{
 							"name": "ColdFusion",
@@ -141,6 +156,10 @@
 						},
 						{
 							"name": "PHP",
+							"level": "50%"
+						},
+						{
+							"name": "Ruby on Rails",
 							"level": "50%"
 						}
 					]
@@ -163,7 +182,7 @@
 					]
 				},
 				{
-					"name": "HTML / CSS",
+					"name": "HTML / CSS / Front End",
 					"skill": [
 						{
 							"name": "HTML",
@@ -176,6 +195,23 @@
 						{
 							"name": "Bootstrap",
 							"level": "75%"
+						}
+					]
+				},
+				{
+					"name": "Content Management / Static Site Generators",
+					"skill": [
+						{
+							"name": "HubSpot CMS",
+							"level": "75%"
+						},
+						{
+							"name": "Jekyll",
+							"level": "60%"
+						},
+						{
+							"name": "Liquid",
+							"level": "60%"
 						}
 					]
 				},
@@ -197,27 +233,27 @@
 						{
 							"name": "Splunk",
 							"level": "65%"
-						},
-						{
-							"name": "Balsamiq",
-							"level": "75%"
 						}
 					]
 				},
 				{
-					"name": "Project / Content Management",
+					"name": "Project Management",
 					"skill": [
 						{
 							"name": "Jira",
 							"level": "85%"
 						},
 						{
-							"name": "HubSpot CMS",
-							"level": "75%"
+							"name": "Slack",
+							"level": "80%"
 						},
 						{
-							"name": "Slack",
-							"level": "70%"
+							"name": "Trello",
+							"level": "80%"
+						},
+						{
+							"name": "Asana",
+							"level": "65%"
 						}
 					]
 				}

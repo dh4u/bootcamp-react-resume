@@ -34,7 +34,7 @@ class Contact extends Component {
 					   <h4>Address, Phone, and Email</h4>
 					   <p className="address">
                      {name}<br />
-                     {occupation} / Full Stack Developer<br />
+                     {occupation}<br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span><br />
                      <a href={`mailto:${email}`}>scott.harvey@outlook.com</a>
