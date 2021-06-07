@@ -54,3 +54,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/donzail
 
 ==================================================================
+==================================================================
+https://keybase.io/donzail
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://portfolio.scottharvey.dev
+  * I am donzail (https://keybase.io/donzail) on keybase.
+  * I have a public key ASAbZYnC4hOMyiK8T7b9bvJ3MjTAJhSuwXaKY6r3hEr0Dwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201b6589c2e2138cca22bc4fb6fd6ef2773234c02614aec1768a63aaf7844af40f0a",
+      "host": "keybase.io",
+      "kid": "01201b6589c2e2138cca22bc4fb6fd6ef2773234c02614aec1768a63aaf7844af40f0a",
+      "uid": "480caa87d075b776da65426355606319",
+      "username": "donzail"
+    },
+    "merkle_root": {
+      "ctime": 1623032717,
+      "hash": "bbfa3f6c255535011e4e2e79fef87eea3acdf638b1e3105de6d8d6f3fe2a7dc7ac90a0afde47184895039a19b4c321ed794372c14bb893c8a2f4105c7f965b0b",
+      "hash_meta": "eede9449c0dc98a26c118e547f04f92e9921f450dc81bb595656380f652bad0e",
+      "seqno": 20128098
+    },
+    "service": {
+      "entropy": "AWaBLIpjWqsBF5cFMr24uiaG",
+      "hostname": "portfolio.scottharvey.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1623032781,
+  "expire_in": 504576000,
+  "prev": "5886d909dd4f3c1be4028110f5b067649dd80978ae59278342aa9209327e82c3",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgG2WJwuITjMoivE+2/W7ydzI0wCYUrsF2imOq94RK9A8Kp3BheWxvYWTESpcCHcQgWIbZCd1PPBvkAoEQ9bBnZJ3YCXiuWSeDQqqSCTJ+gsPEIJWbaIQrFUhO2p2KJ7lIojl6juHBcKpWgQ4iC9AKx/8GAgHCo3NpZ8RA3U+Uxjwk80z5NePtQl/uSJR9i+enVXuzh4IayguTfHqXd3pJQ2XU4FwZ8+4K9a5wRcPY1Dxkc4uyq3Ik2n1+BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFvQDOrW3Y6lJ+GI21LGfxUzdXsybvVmbckRQkvPR4mHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/donzail
+
+==================================================================
