@@ -4,10 +4,16 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import portfolioCLRImage from '../images/portfolio/clr-intranet.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import portfolioSiteImage from '../images/portfolio/scottharvey-dev.jpg';
-import typedPortfolioImage2 from '../images/portfolio/thumbnails/bootcamp-cars.v2.1.thumbnail.png';
-import typedPortfolioImage3 from '../images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumbnail.png';
-import typedPortfolioImage4 from '../images/portfolio/thumbnails/bootcamp-current-weather.1.thumbnail.png';
-import typedPortfolioImage1 from '../images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png';
+import typedPortfolioImage_calculator from '../images/portfolio/thumbnails/bootcamp-calculator.thumbnail.png';
+import typedPortfolioImage_carsV1 from '../images/portfolio/thumbnails/bootcamp-cars.v1.thumbnail.png';
+import typedPortfolioImage_carsV2 from '../images/portfolio/thumbnails/bootcamp-cars.v2.1.thumbnail.png';
+import typedPortfolioImage_connectFour from '../images/portfolio/thumbnails/bootcamp-connect-four.thumbnail.png';
+import typedPortfolioImage_currencyMonte from '../images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumbnail.png';
+import typedPortfolioImage_currentWeather from '../images/portfolio/thumbnails/bootcamp-current-weather.1.thumbnail.png';
+import typedPortfolioImage_guitarStore from '../images/portfolio/thumbnails/bootcamp-guitar-store.v2.thumbnail.png';
+import typedPortfolioImage_restaurantPOS from '../images/portfolio/thumbnails/bootcamp-restaurant-POS.thumbnail.png';
+import typedPortfolioImage_starWars from '../images/portfolio/thumbnails/bootcamp-star-wars.2.thumbnail.png';
+import typedPortfolioImage_toDo from '../images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png';
 import clrDashboard from '../images/portfolio/thumbnails/clr-dashboard.thumbnail.png';
 import clrEmployeeReport from '../images/portfolio/thumbnails/clr-employee.data.report.thumbnail.png';
 import clrExpenseReports from '../images/portfolio/thumbnails/clr-expense.reports.home.thumbnail.png';
@@ -236,7 +242,7 @@ export const typedPortfolioItems: TypedPortfolioItem = {
       title: 'To-do List v2 (with Login)',
       overlayText:
         "The React app 'To-Do v1' with a RESTful Express API back-end. Express uses Mongoose to interface with MongoDB in order to save to-do items.",
-      image: typedPortfolioImage1,
+      image: typedPortfolioImage_toDo,
       demo: '',
       GitHub: 'https://github.com/dh4u/bootcamp-to-do/tree/v2',
       assignment: 'Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.',
@@ -254,7 +260,7 @@ export const typedPortfolioItems: TypedPortfolioItem = {
       title: 'Cars v2',
       overlayText:
         'A React app with a RESTful Express API for a simplified version of an inventory tracker for an automobile dealership.',
-      image: typedPortfolioImage2,
+      image: typedPortfolioImage_carsV2,
       demo: '',
       GitHub: 'https://github.com/dh4u/bootcamp-cars',
       assignment: 'Create a full stack web application that uses a MongoDB collection to store cars in an inventory.',
@@ -272,7 +278,7 @@ export const typedPortfolioItems: TypedPortfolioItem = {
       title: 'Currency Converter / Three Card Monte',
       overlayText:
         'A React app that allows the user to choose between a currency converter and a Three-card Monte game.',
-      image: typedPortfolioImage3,
+      image: typedPortfolioImage_currencyMonte,
       demo: '',
       GitHub: 'https://github.com/dh4u/bootcamp-currency-converter-and-monte-game',
       assignment:
@@ -291,10 +297,10 @@ export const typedPortfolioItems: TypedPortfolioItem = {
     {
       title: 'Current Weather',
       overlayText: "A React app that displays the current weather in the city of the user's choice.",
-      image: typedPortfolioImage4,
+      image: typedPortfolioImage_currentWeather,
       demo: 'https://dh4u-bootcamp-current-weather.herokuapp.com',
       GitHub: 'https://github.com/dh4u/bootcamp-current-weather',
-      assignment: 'Create a React app that will display the weather in a city of the user\u2019s choice.',
+      assignment: "Create a React app that will display the weather in a city of the user's choice.",
       solution: 'Used create-react-app to bootstrap a React app that displays weather from OpenWeatherMap API.',
       features: [
         {feature: 'Uses APIs to autosuggest cities and get weather'},
@@ -302,6 +308,120 @@ export const typedPortfolioItems: TypedPortfolioItem = {
         {feature: 'Events'},
       ],
       technology: 'React and React Bootstrap',
+    },
+    {
+      title: 'Connect Four',
+      overlayText: 'A React game of Connect Four.',
+      image: typedPortfolioImage_connectFour,
+      demo: 'https://dh4u-bootcamp-connect-four.herokuapp.com',
+      GitHub: 'https://github.com/dh4u/bootcamp-connect-four',
+      assignment: 'Build a Connect Four game in React.',
+      solution: 'Used create-react-app to build a two-player Connect Four game with win detection.',
+      features: [
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'React and React Bootstrap',
+    },
+    {
+      title: 'To-do List v1',
+      overlayText: 'A React to-do list.',
+      image: typedPortfolioImage_toDo,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-to-do',
+      assignment: 'Build a to-do list app in React.',
+      solution: 'Used create-react-app to build a to-do list with multiple user role types.',
+      features: [
+        {feature: 'Multiple user roles / types'},
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'React and React Bootstrap',
+    },
+    {
+      title: 'Using an API',
+      overlayText:
+        'Used NextJS to fetch data from the Star Wars API and React to create a list / drilldown style app for Star Wars characters.',
+      image: typedPortfolioImage_starWars,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-star-wars',
+      assignment: 'Build an app that fetches and displays data from a public API.',
+      solution: 'Used Next.js to fetch data server-side from the Star Wars API and display it in a list/drilldown UI.',
+      features: [
+        {feature: 'List / Drilldown interface'},
+        {feature: 'Uses RESTful API'},
+      ],
+      technology: 'NextJS and React',
+    },
+    {
+      title: 'Calculator',
+      overlayText: 'A React calculator.',
+      image: typedPortfolioImage_calculator,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-calculator',
+      assignment: 'Build a calculator in React.',
+      solution: 'Used create-react-app to build a functional calculator.',
+      features: [
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'React and React Bootstrap',
+    },
+    {
+      title: 'Guitarist Center v2',
+      overlayText:
+        'Used a previous project for an online guitar store and added a functional shopping cart with sessionStorage persistence.',
+      image: typedPortfolioImage_guitarStore,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-guitar-store/tree/v2',
+      assignment: 'Add a functional shopping cart to the Guitarist Center v1 project.',
+      solution: 'Extended the v1 guitar store with a shopping cart that persists via sessionStorage.',
+      features: [
+        {feature: 'Shopping Cart / Checkout'},
+        {feature: 'sessionStorage'},
+      ],
+      technology: 'sessionStorage for shopping cart persistence, Bootstrap 4, HTML, and JavaScript',
+    },
+    {
+      title: 'Guitarist Center v3',
+      overlayText: 'A React guitar store with a shopping cart that persists via localStorage.',
+      image: typedPortfolioImage_guitarStore,
+      demo: 'https://dh4u-bootcamp-guitar-shop-v3.herokuapp.com',
+      GitHub: 'https://github.com/dh4u/bootcamp-guitar-store/tree/v3',
+      assignment: 'Rebuild the Guitarist Center in React.',
+      solution: 'Rebuilt the guitar store in React with a localStorage-backed shopping cart.',
+      features: [
+        {feature: 'Shopping Cart / Checkout'},
+        {feature: 'localStorage'},
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'localStorage for shopping cart persistence, React, React Bootstrap, jQuery, and jQueryUI',
+    },
+    {
+      title: 'Restaurant POS',
+      overlayText: 'An ordering system for a restaurant.',
+      image: typedPortfolioImage_restaurantPOS,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-restaurant-POS',
+      assignment: 'Build a point-of-sale ordering system for a restaurant.',
+      solution: 'Built a restaurant POS interface using vanilla JavaScript and Bootstrap.',
+      features: [
+        {feature: 'sessionStorage'},
+      ],
+      technology: 'Bootstrap 4, HTML, and JavaScript',
+    },
+    {
+      title: 'Cars v1',
+      overlayText:
+        'A simple page that shows various car models and displays the description of the selected model.',
+      image: typedPortfolioImage_carsV1,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-cars/tree/v1',
+      assignment: 'Build a page that displays car models and their details.',
+      solution: 'Built a vanilla JS/Bootstrap page with a list of cars and a detail view.',
+      features: [],
+      technology: 'Bootstrap 4, HTML, and JavaScript',
     },
   ],
   paidProjects: [
