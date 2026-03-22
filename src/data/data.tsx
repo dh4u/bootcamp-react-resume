@@ -1,7 +1,7 @@
 import {ArrowDownTrayIcon, BuildingOffice2Icon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import heroImage from '../images/dc.capitol.jpg';
+import heroImage from '../images/dc.walter-reed.jpg';
 import portfolioCLRImage from '../images/portfolio/clr-intranet.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import portfolioSiteImage from '../images/portfolio/scottharvey-dev.jpg';
