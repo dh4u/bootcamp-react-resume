@@ -375,10 +375,10 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         NextJS | HTML | CSS <br />
-        FOOD·E - Full-stack development with NextJS and MongoDB on a project to calculate the environmental impact of
+        <a className="text-orange-400 hover:text-orange-300" href="https://foodprintcalculator.com/" rel="noopener noreferrer" target="_blank">FOOD·E</a> - Full-stack development with NextJS and MongoDB on a project to calculate the environmental impact of
         your meals.
         <br />
-        Ethicode website - Development and maintenance.
+        <a className="text-orange-400 hover:text-orange-300" href="https://www.ethicode.org" rel="noopener noreferrer" target="_blank">Ethicode website</a> - Development and maintenance.
       </p>
     ),
   },
@@ -390,9 +390,9 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         VueJS | HTML | CSS <br />
-        Cranky Uncle mobile app - Mobile development in VueJS, HTML, and CSS <br />
-        Rogue Origin - Developing and maintaining responsive front-end web pages and marketing emails <br />
-        Social Solutions - Website development and maintenance.
+        <a className="text-orange-400 hover:text-orange-300" href="https://www.crankyuncle.com" rel="noopener noreferrer" target="_blank">Cranky Uncle mobile app</a> - Mobile development in VueJS, HTML, and CSS <br />
+        <a className="text-orange-400 hover:text-orange-300" href="https://rogueorigin.com/" rel="noopener noreferrer" target="_blank">Rogue Origin</a> - Developing and maintaining responsive front-end web pages and marketing emails <br />
+        <a className="text-orange-400 hover:text-orange-300" href="https://www.socialsolutions.biz/" rel="noopener noreferrer" target="_blank">Social Solutions</a> - Website development and maintenance.
       </p>
     ),
   },
@@ -405,7 +405,7 @@ export const experience: TimelineItem[] = [
       <p>
         JavaScript | HTML | CSS | HubSpot CMS
         <br />
-        agencyQ.com - Developing responsive JavaScript, HTML, and CSS modules in HubSpot CMS. <br />
+        <a className="text-orange-400 hover:text-orange-300" href="https://www.agencyq.com/" rel="noopener noreferrer" target="_blank">agencyQ.com</a> - Developing responsive JavaScript, HTML, and CSS modules in HubSpot CMS. <br />
         Developed and implemented HTML email templates in Salesforce Pardot.
       </p>
     ),
