@@ -239,10 +239,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 
 // Cannabis section — placeholder images (TODO: replace with Figma wireframes)
-const cannabis1: CannabisProject['image'] = porfolioImage1; // TODO: replace with wireframe
-const cannabis2: CannabisProject['image'] = portfolioSiteImage; // TODO: replace with wireframe
-const cannabis3: CannabisProject['image'] = portfolioCLRImage; // TODO: replace with wireframe
-const cannabis4: CannabisProject['image'] = clrDashboard; // TODO: replace with wireframe
+const cannabis1: CannabisProject['image'] = '/assets/cannabis-vue-logo.svg'; // TODO: replace with wireframe
+const cannabis2: CannabisProject['image'] = '/assets/cannabis-placeholder.svg'; // TODO: replace with wireframe
+const cannabis3: CannabisProject['image'] = '/assets/cannabis-placeholder.svg'; // TODO: replace with wireframe
+const cannabis4: CannabisProject['image'] = '/assets/cannabis-placeholder.svg'; // TODO: replace with wireframe
 
 export const typedPortfolioItems: TypedPortfolioItem = {
   cannabisProjects: [

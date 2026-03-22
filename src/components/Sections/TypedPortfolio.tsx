@@ -36,6 +36,22 @@ const TypedPortfolio: FC = memo(() => {
           </div>
         )}
 
+        {/* ── Bootcamp Projects ─────────────────────────────────────────── */}
+        <div className="flex flex-col gap-y-6">
+          <div className="self-center text-center">
+            <h2 className="text-xl font-bold text-white">Bootcamp Projects</h2>
+            <p className="mt-2 max-w-2xl text-sm text-neutral-400">
+              Projects completed during the HyperionDev Full Stack Web Developer bootcamp (2020). Click to view a demo
+              or source on GitHub.
+            </p>
+          </div>
+          <div className="columns-1 gap-4 sm:columns-2 lg:columns-2">
+            {bootcampProjects.map(project => (
+              <BootcampProjectCard key={project.title} project={project} />
+            ))}
+          </div>
+        </div>
+
         {/* ── CLR / Paid Work ───────────────────────────────────────────── */}
         {paidProjects.length > 0 && (
           <div className="flex flex-col gap-y-6">
@@ -53,22 +69,6 @@ const TypedPortfolio: FC = memo(() => {
             </div>
           </div>
         )}
-
-        {/* ── Bootcamp Projects ─────────────────────────────────────────── */}
-        <div className="flex flex-col gap-y-6">
-          <div className="self-center text-center">
-            <h2 className="text-xl font-bold text-white">Bootcamp Projects</h2>
-            <p className="mt-2 max-w-2xl text-sm text-neutral-400">
-              Projects completed during the HyperionDev Full Stack Web Developer bootcamp (2020). Click to view a demo
-              or source on GitHub.
-            </p>
-          </div>
-          <div className="columns-1 gap-4 sm:columns-2 lg:columns-2">
-            {bootcampProjects.map(project => (
-              <BootcampProjectCard key={project.title} project={project} />
-            ))}
-          </div>
-        </div>
       </div>
     </Section>
   );
