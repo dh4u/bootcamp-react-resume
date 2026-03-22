@@ -8,6 +8,16 @@ import typedPortfolioImage2 from '../images/portfolio/thumbnails/bootcamp-cars.v
 import typedPortfolioImage3 from '../images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumbnail.png';
 import typedPortfolioImage4 from '../images/portfolio/thumbnails/bootcamp-current-weather.1.thumbnail.png';
 import typedPortfolioImage1 from '../images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png';
+import clrDashboard from '../images/portfolio/thumbnails/clr-dashboard.thumbnail.png';
+import clrEmployeeReport from '../images/portfolio/thumbnails/clr-employee.data.report.thumbnail.png';
+import clrExpenseReports from '../images/portfolio/thumbnails/clr-expense.reports.home.thumbnail.png';
+import clrCMSHr from '../images/portfolio/thumbnails/clr-intranetCMS.hr.thumbnail.png';
+import clrCMSForm from '../images/portfolio/thumbnails/clr-intranetCMS.intranet.form.thumbnail.png';
+import clrCMSSupervisor from '../images/portfolio/thumbnails/clr-intranetCMS.supervisor.resources.thumbnail.png';
+import clrOrgChart from '../images/portfolio/thumbnails/clr-org.chart.thumbnail.png';
+import clrScheduledTasks from '../images/portfolio/thumbnails/clr-scheduled.task.manager.thumbnail.png';
+import clrStaffMeeting from '../images/portfolio/thumbnails/clr-staff.meeting.admin.home.thumbnail.png';
+import clrTimesheets from '../images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png';
 import profilepic0 from '../images/profilepic.nepal.1.jpg';
 import profilepic1 from '../images/profilepic.png';
 import heroImage from '../images/shaw.library.jpg';
@@ -294,7 +304,98 @@ export const typedPortfolioItems: TypedPortfolioItem = {
       technology: 'React and React Bootstrap',
     },
   ],
-  paidProjects: [],
+  paidProjects: [
+    {
+      title: 'Dashboard',
+      image: clrDashboard,
+      demo: '',
+      GitHub: '',
+      description: 'The home page for The Eye — announcements, weather, timesheets at a glance, and quick links.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Timesheets',
+      image: clrTimesheets,
+      demo: '',
+      GitHub: '',
+      description: 'Weekly timesheet entry, submission, and approval workflow replacing a manual paper process.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Expense Reports',
+      image: clrExpenseReports,
+      demo: '',
+      GitHub: '',
+      description: 'Expense report submission, receipt upload, and multi-level approval workflow.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'HR Documents',
+      image: clrCMSHr,
+      demo: '',
+      GitHub: '',
+      description: 'HR document library and policies CMS — upload, categorize, and publish documents to staff.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Supervisor Resources',
+      image: clrCMSSupervisor,
+      demo: '',
+      GitHub: '',
+      description: 'Restricted resource hub for supervisors — performance review templates, HR forms, and guides.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Forms Manager',
+      image: clrCMSForm,
+      demo: '',
+      GitHub: '',
+      description: 'Custom intranet forms builder — create, publish, and collect submissions for any internal process.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Employee Data Reports',
+      image: clrEmployeeReport,
+      demo: '',
+      GitHub: '',
+      description: 'Ad-hoc employee data reporting and analytics for HR and management.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Org Chart',
+      image: clrOrgChart,
+      demo: '',
+      GitHub: '',
+      description: 'Auto-generated interactive organizational chart built from employee data.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Scheduled Task Manager',
+      image: clrScheduledTasks,
+      demo: '',
+      GitHub: '',
+      description: 'Admin tool for scheduling and monitoring automated background tasks across the intranet.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+    {
+      title: 'Staff Meeting Admin',
+      image: clrStaffMeeting,
+      demo: '',
+      GitHub: '',
+      description: 'Staff meeting scheduling, agenda management, and minute distribution.',
+      features: [],
+      technology: 'ColdFusion, JavaScript, HTML, CSS, MS SQL Server',
+    },
+  ],
 };
 
 /**

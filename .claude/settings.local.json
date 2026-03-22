@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/scott/Documents/GitHub/bootcamp-react-resume-dh4u-original/bootcamp-react-resume/public/images/portfolio/**)",
+      "Read(//Users/scott/Documents/GitHub/bootcamp-react-resume-dh4u-original/bootcamp-react-resume/src/**)",
+      "Read(//Users/scott/Documents/GitHub/bootcamp-react-resume-dh4u-original/bootcamp-react-resume/**)",
+      "Read(//Users/scott/Documents/GitHub/**)",
+      "Bash(find /Users/scott/Documents/GitHub/bootcamp-react-resume-dh4u-original/bootcamp-react-resume/ -name *.jpg -o -name *.png -o -name *.pdf)",
+      "Bash(diff -rq --exclude=*.js --exclude=*.map --exclude=node_modules /Users/scott/Documents/GitHub/bootcamp-react-resume/src/components/ '/Users/scott/Documents/GitHub/bootcamp-react-resume original/.claude/worktrees/upbeat-herschel/src/components/')",
+      "Bash(yarn install:*)",
+      "Bash(yarn tsc:*)",
+      "Bash(yarn build:*)",
+      "Bash(yarn lint:*)",
+      "Bash(gh auth:*)",
+      "Bash(ssh-add -l)",
+      "Bash(gh api:*)"
+    ]
+  }
+}

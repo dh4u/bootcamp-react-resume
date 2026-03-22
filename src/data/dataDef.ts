@@ -95,7 +95,7 @@ export interface Feature {
 export interface Project {
   title: string;
   overlayText: string;
-  image: string; // You can use `StaticImageData` if needed for specific images
+  image: StaticImageData | string;
   demo: string;
   GitHub: string;
   assignment: string;
@@ -106,7 +106,7 @@ export interface Project {
 
 export interface PaidProject {
   title: string;
-  image: string;
+  image: StaticImageData | string;
   demo: string;
   GitHub: string;
   description: string;
