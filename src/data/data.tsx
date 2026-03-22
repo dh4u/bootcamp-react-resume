@@ -1,31 +1,16 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+import {ArrowDownTrayIcon, BuildingOffice2Icon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import portfolioCLRImage from '../images/portfolio/clr-intranet.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import portfolioSiteImage from '../images/portfolio/scottharvey-dev.jpg';
+import typedPortfolioImage2 from '../images/portfolio/thumbnails/bootcamp-cars.v2.1.thumbnail.png';
+import typedPortfolioImage3 from '../images/portfolio/thumbnails/bootcamp-currency-converter-and-monte-game.2.thumbnail.png';
+import typedPortfolioImage4 from '../images/portfolio/thumbnails/bootcamp-current-weather.1.thumbnail.png';
+import typedPortfolioImage1 from '../images/portfolio/thumbnails/bootcamp-to-do.thumbnail.png';
+import profilepic0 from '../images/profilepic.nepal.1.jpg';
+import profilepic1 from '../images/profilepic.png';
+import heroImage from '../images/shaw.library.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -38,14 +23,17 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  TypedPortfolioItem,
 } from './dataDef';
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Scott Harvey - Software Engineer',
+  description:
+    'Personal portfolio and resume of Scott Harvey, a software engineer based in ' +
+    'Washington DC with 20+ years of experience across the full stack.',
 };
 
 /**
@@ -69,18 +57,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Scott Harvey.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Washington, DC based <strong className="text-stone-100">Software Engineer</strong> with over two decades
+        of experience building web applications — from enterprise ColdFusion and SQL systems to modern full-stack
+        JavaScript and mobile apps.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Currently building production software at a <strong className="text-stone-100">cannabis company</strong>. In my
+        free time you can catch me <strong className="text-stone-100">cooking</strong> or strumming my{' '}
+        <strong className="text-stone-100">guitar</strong>.
       </p>
     </>
   ),
@@ -103,17 +91,23 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  profileImage0Src: profilepic0,
+  profileImage1Src: profilepic1,
+  description: `Outside of work I value spending time with and traveling with my partner
+  — I've been fortunate enough to visit about 30 countries on 6 continents.
+  Professionally, I value a sense of ownership and working on projects that make a
+  difference. I really enjoy the challenge of automating processes and love the reward
+  of stakeholders telling me how much time and effort my work has saved them.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Washington, DC', Icon: MapIcon, href: 'https://maps.app.goo.gl/AC666547e7RVKBNx9'},
+    {label: 'Nationality', text: 'USA', Icon: FlagIcon, href: 'https://maps.app.goo.gl/dxWKyQukyviLakEb6'},
+    {label: 'Interests', text: 'Compassion, Music, Cooking', Icon: SparklesIcon, href: ''},
+    {
+      label: 'Employment',
+      text: 'A Cannabis Company',
+      Icon: BuildingOffice2Icon,
+      href: 'https://www.holisticindustries.com',
+    },
   ],
 };
 
@@ -122,72 +116,66 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      {name: 'HTML', level: 10},
+      {name: 'CSS', level: 8},
+      {name: 'JavaScript', level: 9},
+      {name: 'jQuery', level: 9},
+      {name: 'Vue / Nuxt', level: 8},
+      {name: 'React', level: 7},
+      {name: 'Next.js', level: 7},
+      {name: 'TypeScript', level: 7},
+      {name: 'Bootstrap', level: 8},
+      {name: 'Tailwind CSS', level: 6},
     ],
   },
   {
     name: 'Backend development',
     skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+      {name: 'ColdFusion', level: 10},
+      {name: 'C# / .NET', level: 7},
+      {name: 'Node.js', level: 7},
+      {name: 'Express', level: 7},
+      {name: 'PHP', level: 5},
+      {name: 'Ruby on Rails', level: 5},
     ],
   },
   {
     name: 'Mobile development',
+    skills: [{name: 'React Native', level: 6}],
+  },
+  {
+    name: 'Databases',
     skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      {name: 'MS SQL Server', level: 10},
+      {name: 'Oracle', level: 8},
+      {name: 'MongoDB', level: 8},
+      {name: 'PostgreSQL', level: 6},
     ],
+  },
+  {
+    name: 'CMS & static site generators',
+    skills: [
+      {name: 'HubSpot CMS', level: 8},
+      {name: 'Jekyll / Liquid', level: 6},
+    ],
+  },
+  {
+    name: 'Developer tools',
+    skills: [
+      {name: 'Git / GitHub', level: 8},
+      {name: 'Subversion', level: 9},
+      {name: 'Jira', level: 9},
+      {name: 'Bamboo', level: 7},
+      {name: 'Splunk', level: 7},
+      {name: 'Trello', level: 8},
+      {name: 'Asana', level: 7},
+    ],
+  },
+  {
+    name: 'Spoken languages',
+    skills: [{name: 'English', level: 10}],
   },
 ];
 
@@ -196,111 +184,244 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    // TODO: replace porfolioImage1 with wireframe screenshot once created
+    // Wireframe instructions: see handoff document
+    title: 'Cannabis Industry — Mobile Fulfillment App',
+    description:
+      'React Native mobile application for an internal cannabis industry operations team. ' +
+      'Supports inventory management, delivery logistics, and pack-and-pull fulfillment ' +
+      'workflows. Contributed to an existing production codebase. ' +
+      'UI shown as wireframes to protect employer confidentiality.',
+    url: 'https://scottharvey.dev',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
+    title: 'scottharvey.dev',
+    description:
+      'This portfolio site — built with Next.js, TypeScript, and Tailwind CSS. ' +
+      'Forked from the react-resume-template and fully customized with original ' +
+      'content, structure, and styling. Deployed on AWS Amplify.',
+    url: 'https://scottharvey.dev',
+    image: portfolioSiteImage,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'CLR Intranet — Case Study',
+    description:
+      'Over 11 years at the Council for Logistics Research, built and maintained an ' +
+      'enterprise intranet from the ground up serving CLR and US Air Force clients. ' +
+      'Automated timekeeping, purchase requisitions, expense reporting, performance ' +
+      'reviews, and training requests — dramatically reducing manual workload ' +
+      'organization-wide. Stack: ColdFusion, JavaScript, HTML, CSS, MS SQL Server.',
+    url: 'https://portfolio.scottharvey.dev',
+    image: portfolioCLRImage,
   },
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Typed Portfolio section — drives portfolio.scottharvey.dev
+ */
+export const typedPortfolioItems: TypedPortfolioItem = {
+  bootcampProjects: [
+    {
+      title: 'To-do List v2 (with Login)',
+      overlayText:
+        "The React app 'To-Do v1' with a RESTful Express API back-end. Express uses Mongoose to interface with MongoDB in order to save to-do items.",
+      image: typedPortfolioImage1,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-to-do/tree/v2',
+      assignment: 'Build upon the previous to-do application by adding a login and writing the to-do items to MongoDB.',
+      solution:
+        "Added an Express back-end to 'To-Do v1'. Express serves as a RESTful API and uses Mongoose to interface with MongoDB in order to save to-do items.",
+      features: [
+        {feature: 'Provides / uses internal RESTful API'},
+        {feature: 'Database storage'},
+        {feature: 'Authentication (local storage)'},
+        {feature: 'Session Mgmt (local storage)'},
+      ],
+      technology: 'MERN (MongoDB (Mongoose), Express, React, NodeJS), React Bootstrap, and React Simple Storage',
+    },
+    {
+      title: 'Cars v2',
+      overlayText:
+        'A React app with a RESTful Express API for a simplified version of an inventory tracker for an automobile dealership.',
+      image: typedPortfolioImage2,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-cars',
+      assignment: 'Create a full stack web application that uses a MongoDB collection to store cars in an inventory.',
+      solution:
+        'Built an Express RESTful API as the back-end for a React front-end. The API uses Mongoose to interface with MongoDB for storing car inventory.',
+      features: [
+        {feature: 'Provides / uses internal RESTful API'},
+        {feature: 'Database storage'},
+        {feature: 'List / Drilldown interface'},
+        {feature: 'Bulk Editing'},
+      ],
+      technology: 'MERN (MongoDB (Mongoose), Express, React, NodeJS) and React Bootstrap',
+    },
+    {
+      title: 'Currency Converter / Three Card Monte',
+      overlayText:
+        'A React app that allows the user to choose between a currency converter and a Three-card Monte game.',
+      image: typedPortfolioImage3,
+      demo: '',
+      GitHub: 'https://github.com/dh4u/bootcamp-currency-converter-and-monte-game',
+      assignment:
+        'Create an app that allows the user to choose between a currency converter and a Three-card Monte game.',
+      solution: 'Used create-react-app to bootstrap a React app. Exchange rates are fetched from apilayer.com.',
+      features: [
+        {feature: 'Uses RESTful API'},
+        {feature: 'Custom feedback for winning / losing streaks'},
+        {feature: 'Bootstrap-React Animation'},
+        {feature: 'Routing'},
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'React and React Bootstrap',
+    },
+    {
+      title: 'Current Weather',
+      overlayText: "A React app that displays the current weather in the city of the user's choice.",
+      image: typedPortfolioImage4,
+      demo: 'https://dh4u-bootcamp-current-weather.herokuapp.com',
+      GitHub: 'https://github.com/dh4u/bootcamp-current-weather',
+      assignment: 'Create a React app that will display the weather in a city of the user\u2019s choice.',
+      solution: 'Used create-react-app to bootstrap a React app that displays weather from OpenWeatherMap API.',
+      features: [
+        {feature: 'Uses APIs to autosuggest cities and get weather'},
+        {feature: 'State Management'},
+        {feature: 'Events'},
+      ],
+      technology: 'React and React Bootstrap',
+    },
+  ],
+  paidProjects: [],
+};
+
+/**
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'July 2020',
+    location: 'HyperionDev',
+    url: 'https://www.hyperiondev.com/',
+    title: 'Full Stack Web Developer Certificate',
+    content: (
+      <p>
+        Full-stack development using the <strong>MERN</strong> stack — <strong>MongoDB, Express, Node.js,</strong> and{' '}
+        <strong>React</strong>. Covered HTML, CSS, Bootstrap 4, modern JavaScript (ES6+), and RESTful API development.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2010',
+    location: 'Adobe Inc.',
+    url: '',
+    title: 'Adobe Certified Expert — ColdFusion',
+    content: (
+      <p>
+        Professional certification validating expert-level knowledge of Adobe ColdFusion for enterprise web application
+        development.
+      </p>
+    ),
   },
   {
     date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    location: 'Project Management Institute',
+    url: '',
+    title: 'Hands-on IT Project Management',
+    content: (
+      <p>Practical IT project management training covering planning, execution, and delivery of technology projects.</p>
+    ),
+  },
+  {
+    date: 'Summer 2007',
+    location: 'Corcoran College of Art and Design',
+    url: '',
+    title: 'Introduction to Graphic Design',
+    content: <p>Foundational graphic design coursework informing UI sensibility and visual communication.</p>,
+  },
+  {
+    date: '1992\u20131995',
+    location: 'Carnegie Mellon University',
+    url: '',
+    title: 'Mellon College of Sciences',
+    content: <p>Attended the Mellon College of Sciences at Carnegie Mellon University.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'July 2021 - Present',
+    location: 'A Cannabis Company',
+    url: 'https://www.holisticindustries.com',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        C# | Vue | TypeScript | React Native | MS SQL Server
+        <br />
+        Full-stack software engineer delivering production web and mobile applications. Building and maintaining
+        internal tools including a React Native mobile app supporting inventory management, delivery logistics, and
+        pack-and-pull fulfillment workflows. Front-end development with Vue and TypeScript, back-end API development
+        with C# and .NET, and database work with SQL Server.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '2020 - 2021',
+    location: 'Ethicode',
+    url: 'https://ethicode.org/',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        NextJS | HTML | CSS <br />
+        FOOD·E - Full-stack development with NextJS and MongoDB on a project to calculate the environmental impact of
+        your meals.
+        <br />
+        Ethicode website - Development and maintenance.
+      </p>
+    ),
+  },
+  {
+    date: '2020 - 2021',
+    location: 'Goodbeast (Autonomy Coop)',
+    url: 'https://goodbeast.com/',
+    title: 'Web Developer',
+    content: (
+      <p>
+        VueJS | HTML | CSS <br />
+        Cranky Uncle mobile app - Mobile development in VueJS, HTML, and CSS <br />
+        Rogue Origin - Developing and maintaining responsive front-end web pages and marketing emails <br />
+        Social Solutions - Website development and maintenance.
+      </p>
+    ),
+  },
+  {
+    date: '2019 - 2020',
+    location: 'Agency Q',
+    url: 'https://www.agencyq.com/',
+    title: 'Freelance Web Developer',
+    content: (
+      <p>
+        JavaScript | HTML | CSS | HubSpot CMS
+        <br />
+        agencyQ.com - Developing responsive JavaScript, HTML, and CSS modules in HubSpot CMS. <br />
+        Developed and implemented HTML email templates in Salesforce Pardot.
+      </p>
+    ),
+  },
+  {
+    date: '2019 - 2020',
+    location: 'Nobel Technologies, Inc',
+    url: 'https://www.nobletechinc.com/',
+    title: 'Database Developer',
+    content: (
+      <p>
+        MS SQL Server
+        <br />
+        Workers Rights Consortium - Performing data management tasks using MS SQL, including database backups, data
+        loads, data validation, and report writing. Assisting with database design and modeling, stored procedure
+        writing, and interface support.
       </p>
     ),
   },
@@ -333,30 +454,24 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Shoot me a line.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'scott.harvey@outlook.com',
+      href: 'mailto:scott.harvey@outlook.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Washington, DC USA',
+      href: 'https://www.google.com/maps/place/Washington,+DC/@38.8937545,-77.014576,12z',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'dh4u',
+      href: 'https://github.com/dh4u',
     },
   ],
 };
@@ -364,10 +479,4 @@ export const contact: ContactSection = {
 /**
  * Social items
  */
-export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
-];
+export const socialLinks: Social[] = [{label: 'Github', Icon: GithubIcon, href: 'https://github.com/dh4u'}];

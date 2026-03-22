@@ -38,7 +38,8 @@ interface HeroActionItem {
  * About section
  */
 export interface About {
-  profileImageSrc?: string;
+  profileImage0Src?: string;
+  profileImage1Src?: string;
   description: string;
   aboutItems: AboutItem[];
 }
@@ -46,6 +47,7 @@ export interface About {
 export interface AboutItem {
   label: string;
   text: string;
+  href: string;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
@@ -84,13 +86,49 @@ export interface PortfolioItem {
 }
 
 /**
+ * Typed Portfolio section
+ */
+export interface Feature {
+  feature: string;
+}
+
+export interface Project {
+  title: string;
+  overlayText: string;
+  image: string; // You can use `StaticImageData` if needed for specific images
+  demo: string;
+  GitHub: string;
+  assignment: string;
+  solution: string;
+  features: Feature[];
+  technology: string;
+}
+
+export interface PaidProject {
+  title: string;
+  image: string;
+  demo: string;
+  GitHub: string;
+  description: string;
+  features: Feature[];
+  technology: string;
+}
+
+export interface TypedPortfolioItem {
+  bootcampProjects: Project[];
+  paidProjects: PaidProject[];
+}
+
+/**
  * Resume section
  */
 export interface TimelineItem {
   date: string;
   location: string;
+  url: string;
   title: string;
   content: JSX.Element;
+  //content: string;
 }
 
 /**
