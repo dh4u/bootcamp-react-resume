@@ -1,6 +1,7 @@
 import {ArrowDownTrayIcon, BuildingOffice2Icon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
+import heroImage from '../images/dc.capitol.jpg';
 import portfolioCLRImage from '../images/portfolio/clr-intranet.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import portfolioSiteImage from '../images/portfolio/scottharvey-dev.jpg';
@@ -26,7 +27,6 @@ import clrStaffMeeting from '../images/portfolio/thumbnails/clr-staff.meeting.ad
 import clrTimesheets from '../images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png';
 import profilepic0 from '../images/profilepic.nepal.1.jpg';
 import profilepic1 from '../images/profilepic.png';
-import heroImage from '../images/dc.capitol.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
