@@ -419,7 +419,7 @@ export const experience: TimelineItem[] = [
       <p>
         MS SQL Server
         <br />
-        Workers Rights Consortium - Performing data management tasks using MS SQL, including database backups, data
+        <a className="text-orange-400 hover:text-orange-300" href="https://www.workersrights.org/" rel="noopener noreferrer" target="_blank">Workers Rights Consortium</a> - Performing data management tasks using MS SQL, including database backups, data
         loads, data validation, and report writing. Assisting with database design and modeling, stored procedure
         writing, and interface support.
       </p>
