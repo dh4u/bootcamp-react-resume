@@ -114,7 +114,20 @@ export interface PaidProject {
   technology: string;
 }
 
+export interface CannabisProject {
+  title: string;
+  overlayText: string;
+  image: StaticImageData | string;
+  demo: string;
+  GitHub: string;
+  description: string;
+  features: Feature[];
+  technology: string;
+  confidential: boolean;
+}
+
 export interface TypedPortfolioItem {
+  cannabisProjects: CannabisProject[];
   bootcampProjects: Project[];
   paidProjects: PaidProject[];
 }

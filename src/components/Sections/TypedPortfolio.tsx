@@ -5,7 +5,7 @@ import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 're
 
 import {isMobile} from '../../config';
 import {SectionId, typedPortfolioItems} from '../../data/data';
-import {PaidProject, Project} from '../../data/dataDef';
+import {CannabisProject, PaidProject, Project} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import GithubIcon from '../Icon/GithubIcon';
 import Section from '../Layout/Section';
@@ -13,11 +13,29 @@ import Section from '../Layout/Section';
 // ─── Main component ──────────────────────────────────────────────────────────
 
 const TypedPortfolio: FC = memo(() => {
-  const {paidProjects, bootcampProjects} = typedPortfolioItems;
+  const {cannabisProjects, paidProjects, bootcampProjects} = typedPortfolioItems;
 
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-12">
+        {/* ── Cannabis Industry ─────────────────────────────────────────── */}
+        {cannabisProjects.length > 0 && (
+          <div className="flex flex-col gap-y-6">
+            <div className="self-center text-center">
+              <h2 className="text-xl font-bold text-white">Cannabis Industry — Enterprise Platform</h2>
+              <p className="mt-2 max-w-2xl text-sm text-neutral-400">
+                Production software engineering at a confidential cannabis industry employer (2021–present). UI shown
+                anonymized to protect employer confidentiality.
+              </p>
+            </div>
+            <div className="columns-1 gap-4 sm:columns-2">
+              {cannabisProjects.map(project => (
+                <CannabisProjectCard key={project.title} project={project} />
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* ── CLR / Paid Work ───────────────────────────────────────────── */}
         {paidProjects.length > 0 && (
           <div className="flex flex-col gap-y-6">
@@ -59,6 +77,85 @@ const TypedPortfolio: FC = memo(() => {
 TypedPortfolio.displayName = 'TypedPortfolio';
 export default TypedPortfolio;
 
+// ─── Cannabis project card ────────────────────────────────────────────────────
+
+const CannabisProjectCard: FC<{project: CannabisProject}> = memo(({project}) => {
+  const [mobile, setMobile] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (isMobile) setMobile(true);
+  }, []);
+
+  useDetectOutsideClick(ref as unknown as React.RefObject<HTMLAnchorElement>, () => setShowOverlay(false));
+
+  const handleClick = useCallback(
+    (e: MouseEvent<HTMLDivElement>) => {
+      if (mobile && !showOverlay) {
+        e.preventDefault();
+        setShowOverlay(true);
+      }
+    },
+    [mobile, showOverlay],
+  );
+
+  return (
+    <div className="mb-6 break-inside-avoid overflow-hidden rounded bg-neutral-700">
+      {/* Image with hover overlay */}
+      <div className="group relative" onClick={handleClick} ref={ref}>
+        <Image
+          alt={project.title}
+          className="w-full object-cover"
+          height={200}
+          src={project.image}
+          unoptimized
+          width={400}
+        />
+        <div
+          className={classNames(
+            'absolute inset-0 flex flex-col items-center justify-center bg-neutral-900/95 p-4 transition-opacity duration-300',
+            mobile ? (showOverlay ? 'opacity-100' : 'opacity-0') : 'opacity-0 group-hover:opacity-100',
+          )}>
+          <p className="text-center text-sm font-bold text-white">{project.title}</p>
+          <p className="mt-1 text-center text-xs text-neutral-300">{project.overlayText}</p>
+        </div>
+      </div>
+
+      {/* Card body */}
+      <div className="p-4">
+        <div className="flex items-center gap-x-3">
+          <h3 className="flex-1 text-sm font-bold text-white">{project.title}</h3>
+          {project.confidential && (
+            <span className="rounded bg-neutral-600 px-2 py-0.5 text-xs font-semibold text-neutral-300">
+              Confidential
+            </span>
+          )}
+        </div>
+
+        {/* Technology */}
+        {project.technology && (
+          <p className="mt-2 text-xs text-neutral-400">
+            <span className="font-semibold text-neutral-300">Technologies: </span>
+            {project.technology}
+          </p>
+        )}
+
+        {/* Features */}
+        {project.features.length > 0 && (
+          <ul className="mt-2 list-inside list-disc space-y-0.5">
+            {project.features.map(f => (
+              <li className="text-xs text-neutral-400" key={f.feature}>
+                {f.feature}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  );
+});
+
 // ─── CLR thumbnail card ───────────────────────────────────────────────────────
 
 const PaidProjectCard: FC<{project: PaidProject}> = memo(({project}) => {
@@ -96,7 +193,7 @@ const PaidProjectCard: FC<{project: PaidProject}> = memo(({project}) => {
       {/* Hover overlay */}
       <div
         className={classNames(
-          'absolute inset-0 flex flex-col items-center justify-center bg-neutral-900/85 p-3 transition-opacity duration-300',
+          'absolute inset-0 flex flex-col items-center justify-center bg-neutral-900/95 p-3 transition-opacity duration-300',
           mobile ? (showOverlay ? 'opacity-100' : 'opacity-0') : 'opacity-0 group-hover:opacity-100',
         )}>
         <p className="text-center text-xs font-bold text-white">{project.title}</p>
@@ -146,7 +243,7 @@ const BootcampProjectCard: FC<{project: Project}> = memo(({project}) => {
         />
         <a
           className={classNames(
-            'absolute inset-0 flex flex-col items-center justify-center bg-neutral-900/85 p-4 transition-opacity duration-300',
+            'absolute inset-0 flex flex-col items-center justify-center bg-neutral-900/95 p-4 transition-opacity duration-300',
             mobile ? (showOverlay ? 'opacity-100' : 'opacity-0') : 'opacity-0 group-hover:opacity-100',
           )}
           href={primaryUrl}

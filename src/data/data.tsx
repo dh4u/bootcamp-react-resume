@@ -30,6 +30,7 @@ import profilepic1 from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
+  CannabisProject,
   ContactSection,
   ContactType,
   Hero,
@@ -236,7 +237,89 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Typed Portfolio section — drives portfolio.scottharvey.dev
  */
+
+// Cannabis section — placeholder images (TODO: replace with Figma wireframes)
+const cannabis1: CannabisProject['image'] = porfolioImage1; // TODO: replace with wireframe
+const cannabis2: CannabisProject['image'] = portfolioSiteImage; // TODO: replace with wireframe
+const cannabis3: CannabisProject['image'] = portfolioCLRImage; // TODO: replace with wireframe
+const cannabis4: CannabisProject['image'] = clrDashboard; // TODO: replace with wireframe
+
 export const typedPortfolioItems: TypedPortfolioItem = {
+  cannabisProjects: [
+    {
+      title: 'Vue 2 → Vue 3 Migration — Enterprise Admin Portal',
+      overlayText:
+        'Led migration of a multi-module enterprise admin portal from Vue 2 to Vue 3, introducing Vite, Pinia, and the Composition API with shared patterns across multiple business modules.',
+      image: cannabis1,
+      demo: '',
+      GitHub: '',
+      description:
+        'Led enterprise-scale migration of a large-scale admin portal from Vue 2 to Vue 3. Introduced a shared component architecture, modern tooling (Vite, Pinia, Composition API), and migration playbooks used across teams. Maintained backward compatibility with legacy modules during transition.',
+      features: [
+        {feature: 'Multi-module architecture across business domains'},
+        {feature: 'Shared component library and utilities'},
+        {feature: 'Vite build tooling replacing Vue CLI'},
+        {feature: 'Pinia state management replacing Vuex'},
+        {feature: 'Composition API migration patterns'},
+      ],
+      technology: 'Vue 3, TypeScript, Vite, Pinia, Composition API',
+      confidential: true,
+    },
+    {
+      title: 'Shared Data Grid Platform',
+      overlayText:
+        'Built a reusable data grid platform used across multiple enterprise modules, standardizing filtering, export strategy, and state management while eliminating hundreds of lines of duplicated code per screen.',
+      image: cannabis2,
+      demo: '',
+      GitHub: '',
+      description:
+        'Platform engineering project: built a shared data grid component used across reporting, operations, and admin tools. Implemented a smart export strategy (client-side for small datasets, backend + S3 for large), consistent UX patterns, and state persistence.',
+      features: [
+        {feature: 'Reusable across multiple enterprise modules'},
+        {feature: 'Smart export: client-side for small datasets, backend + S3 for large'},
+        {feature: 'Standardized filtering and state persistence'},
+        {feature: 'Significantly reduced duplicated grid code per screen'},
+      ],
+      technology: 'Vue 3, TypeScript, DevExtreme, C# / .NET, AWS S3',
+      confidential: true,
+    },
+    {
+      title: 'Portal Authentication Bridge',
+      overlayText:
+        'Implemented a shared authentication layer enabling seamless user sessions across multiple independently deployed frontend applications.',
+      image: cannabis3,
+      demo: '',
+      GitHub: '',
+      description:
+        'Solved a multi-app authentication problem by building shared auth utilities used across independently deployed modules. Centralized auth logic, eliminated duplicate implementations, and resolved dev vs production environment inconsistencies.',
+      features: [
+        {feature: 'Shared auth utilities across independently deployed apps'},
+        {feature: 'Eliminated duplicate auth implementations'},
+        {feature: 'Resolved dev / production environment inconsistencies'},
+        {feature: 'Reduced auth-related bugs and session flicker'},
+      ],
+      technology: 'Vue 3, TypeScript, C# / .NET',
+      confidential: true,
+    },
+    {
+      title: 'AI-Powered Report Summarization',
+      overlayText:
+        'Integrated AWS Bedrock-powered summarization into enterprise reporting workflows, improving data accessibility for business users.',
+      image: cannabis4,
+      demo: '',
+      GitHub: '',
+      description:
+        'Designed the API contract and frontend integration for AI-generated summaries of large operational reports. Built the UI for async AI summarization and balanced performance concerns with large datasets.',
+      features: [
+        {feature: 'AWS Bedrock integration for AI summarization'},
+        {feature: 'Async summary generation for large reports'},
+        {feature: 'Frontend + backend API contract design'},
+        {feature: 'Improved usability of complex operational data'},
+      ],
+      technology: 'Vue 3, TypeScript, C# / .NET, AWS Bedrock',
+      confidential: true,
+    },
+  ],
   bootcampProjects: [
     {
       title: 'To-do List v2 (with Login)',
