@@ -26,7 +26,7 @@ import clrStaffMeeting from '../images/portfolio/thumbnails/clr-staff.meeting.ad
 import clrTimesheets from '../images/portfolio/thumbnails/clr-timesheet.form.thumbnail.png';
 import profilepic0 from '../images/profilepic.nepal.1.jpg';
 import profilepic1 from '../images/profilepic.png';
-import heroImage from '../images/shaw.library.jpg';
+import heroImage from '../images/dc.capitol.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
